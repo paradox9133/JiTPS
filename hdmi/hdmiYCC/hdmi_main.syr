@@ -1,0 +1,1553 @@
+Release 14.6 - xst P.68d (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Reading design: hdmi_main.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "hdmi_main.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "hdmi_main"
+Output Format                      : NGC
+Target Device                      : xc6slx45-2-csg324
+
+---- Source Options
+Top Module Name                    : hdmi_main
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "D:\JiTPS\AdamMichna\hdmi\hdmi\src\common\DRAM16XN.v" into library work
+Parsing module <DRAM16XN>.
+Analyzing Verilog file "D:\JiTPS\AdamMichna\hdmi\hdmi\src\rx_nok\serdes_1_to_5_diff_data_nok.v" into library work
+Parsing module <serdes_1_to_5_diff_data_nok>.
+Analyzing Verilog file "D:\JiTPS\AdamMichna\hdmi\hdmi\src\rx_nok\phsaligner_nok.v" into library work
+Parsing module <phsaligner_nok>.
+Analyzing Verilog file "D:\JiTPS\AdamMichna\hdmi\hdmi\src\rx\chnlbond.v" into library work
+Parsing module <chnlbond>.
+Analyzing Verilog file "D:\JiTPS\AdamMichna\hdmi\hdmi\delay.v" into library work
+Parsing module <delay>.
+Analyzing Verilog file "D:\JiTPS\AdamMichna\hdmi\hdmi\src\tx\serdes_n_to_1.v" into library work
+Parsing module <serdes_n_to_1>.
+Analyzing Verilog file "D:\JiTPS\AdamMichna\hdmi\hdmi\src\tx\encode.v" into library work
+Parsing module <encode>.
+Analyzing Verilog file "D:\JiTPS\AdamMichna\hdmi\hdmi\src\tx\convert_30to15_fifo.v" into library work
+Parsing module <convert_30to15_fifo>.
+Analyzing Verilog file "D:\JiTPS\AdamMichna\hdmi\hdmi\src\rx_nok\decode_nok.v" into library work
+Parsing module <decode_nok>.
+INFO:HDLCompiler:693 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\rx_nok\decode_nok.v" Line 188. parameter declaration becomes local in decode_nok with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\rx_nok\decode_nok.v" Line 189. parameter declaration becomes local in decode_nok with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\rx_nok\decode_nok.v" Line 190. parameter declaration becomes local in decode_nok with formal parameter declaration list
+INFO:HDLCompiler:693 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\rx_nok\decode_nok.v" Line 191. parameter declaration becomes local in decode_nok with formal parameter declaration list
+Analyzing Verilog file "D:\JiTPS\AdamMichna\hdmi\hdmi\ipcore_dir\sum.v" into library work
+Parsing module <sum>.
+Analyzing Verilog file "D:\JiTPS\AdamMichna\hdmi\hdmi\ipcore_dir\mull.v" into library work
+Parsing module <mull>.
+Analyzing Verilog file "D:\JiTPS\AdamMichna\hdmi\hdmi\delay_line.v" into library work
+Parsing module <delay_line>.
+WARNING:HDLCompiler:248 - "D:\JiTPS\AdamMichna\hdmi\hdmi\delay_line.v" Line 42: Block identifier is required on this block
+Analyzing Verilog file "D:\JiTPS\AdamMichna\hdmi\hdmi\src\tx\dvi_encoder_top.v" into library work
+Parsing module <dvi_encoder_top>.
+Analyzing Verilog file "D:\JiTPS\AdamMichna\hdmi\hdmi\src\rx_nok\dvi_decoder_nok.v" into library work
+Parsing module <dvi_decoder_nok>.
+Analyzing Verilog file "D:\JiTPS\AdamMichna\hdmi\hdmi\rgb2ycbcr.v" into library work
+Parsing module <rgb2ycbcr>.
+Analyzing Verilog file "D:\JiTPS\AdamMichna\hdmi\hdmi\src\hdmi_main.v" into library work
+Parsing module <hdmi_main>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <hdmi_main>.
+
+Elaborating module <BUFIO2(DIVIDE_BYPASS="FALSE",DIVIDE=5)>.
+
+Elaborating module <BUFG>.
+WARNING:HDLCompiler:1127 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\hdmi_main.v" Line 82: Assignment to clk25 ignored, since the identifier is never used
+
+Elaborating module <dvi_decoder_nok>.
+WARNING:HDLCompiler:1127 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\rx_nok\dvi_decoder_nok.v" Line 106: Assignment to ade ignored, since the identifier is never used
+
+Elaborating module <IBUFDS(IOSTANDARD="TMDS_33",DIFF_TERM="FALSE")>.
+
+Elaborating module <BUFIO2(DIVIDE_BYPASS="TRUE",DIVIDE=1)>.
+
+Elaborating module <PLL_BASE(CLKIN_PERIOD=10,CLKFBOUT_MULT=10,CLKOUT0_DIVIDE=1,CLKOUT1_DIVIDE=10,CLKOUT2_DIVIDE=5,COMPENSATION="INTERNAL")>.
+
+Elaborating module <BUFPLL(DIVIDE=5)>.
+
+Elaborating module <decode_nok(CHANNEL="BLUE")>.
+
+Elaborating module <serdes_1_to_5_diff_data_nok(DIFF_TERM="FALSE",BITSLIP_ENABLE="TRUE")>.
+WARNING:HDLCompiler:413 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\rx_nok\serdes_1_to_5_diff_data_nok.v" Line 248: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\rx_nok\serdes_1_to_5_diff_data_nok.v" Line 250: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\rx_nok\serdes_1_to_5_diff_data_nok.v" Line 251: Result of 2-bit expression is truncated to fit in 1-bit target.
+
+Elaborating module <IBUFDS(DIFF_TERM="FALSE")>.
+
+Elaborating module <IODELAY2(DATA_RATE="SDR",IDELAY_VALUE=0,IDELAY2_VALUE=0,IDELAY_MODE="NORMAL",ODELAY_VALUE=0,IDELAY_TYPE="DIFF_PHASE_DETECTOR",COUNTER_WRAPAROUND="STAY_AT_LIMIT",DELAY_SRC="IDATAIN",SERDES_MODE="MASTER",SIM_TAPDELAY_VALUE=49)>.
+
+Elaborating module <IODELAY2(DATA_RATE="SDR",IDELAY_VALUE=0,IDELAY2_VALUE=0,IDELAY_MODE="NORMAL",ODELAY_VALUE=0,IDELAY_TYPE="DIFF_PHASE_DETECTOR",COUNTER_WRAPAROUND="WRAPAROUND",DELAY_SRC="IDATAIN",SERDES_MODE="SLAVE",SIM_TAPDELAY_VALUE=49)>.
+
+Elaborating module <ISERDES2(DATA_WIDTH=5,DATA_RATE="SDR",BITSLIP_ENABLE="TRUE",SERDES_MODE="MASTER",INTERFACE_TYPE="RETIMED")>.
+
+Elaborating module <ISERDES2(DATA_WIDTH=5,DATA_RATE="SDR",BITSLIP_ENABLE="TRUE",SERDES_MODE="SLAVE",INTERFACE_TYPE="RETIMED")>.
+
+Elaborating module <phsaligner_nok(CHANNEL="BLUE")>.
+WARNING:HDLCompiler:1308 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\rx_nok\phsaligner_nok.v" Line 180: Found full_case directive in module phsaligner_nok. Use of full_case directives may cause differences between RTL and post-synthesis simulation
+WARNING:HDLCompiler:1308 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\rx_nok\phsaligner_nok.v" Line 227: Found full_case directive in module phsaligner_nok. Use of full_case directives may cause differences between RTL and post-synthesis simulation
+
+Elaborating module <chnlbond>.
+
+Elaborating module <DRAM16XN(data_width=10)>.
+
+Elaborating module <RAM16X1D>.
+WARNING:HDLCompiler:1127 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\rx_nok\dvi_decoder_nok.v" Line 211: Assignment to vde_b ignored, since the identifier is never used
+
+Elaborating module <decode_nok(CHANNEL="GREEN")>.
+
+Elaborating module <phsaligner_nok(CHANNEL="GREEN")>.
+WARNING:HDLCompiler:1308 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\rx_nok\phsaligner_nok.v" Line 180: Found full_case directive in module phsaligner_nok. Use of full_case directives may cause differences between RTL and post-synthesis simulation
+WARNING:HDLCompiler:1308 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\rx_nok\phsaligner_nok.v" Line 227: Found full_case directive in module phsaligner_nok. Use of full_case directives may cause differences between RTL and post-synthesis simulation
+WARNING:HDLCompiler:1127 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\rx_nok\dvi_decoder_nok.v" Line 239: Assignment to vde_g ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\rx_nok\dvi_decoder_nok.v" Line 240: Assignment to ade_g ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\rx_nok\dvi_decoder_nok.v" Line 242: Assignment to aux1 ignored, since the identifier is never used
+
+Elaborating module <decode_nok(CHANNEL="RED")>.
+
+Elaborating module <phsaligner_nok(CHANNEL="RED")>.
+WARNING:HDLCompiler:1308 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\rx_nok\phsaligner_nok.v" Line 180: Found full_case directive in module phsaligner_nok. Use of full_case directives may cause differences between RTL and post-synthesis simulation
+WARNING:HDLCompiler:1308 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\rx_nok\phsaligner_nok.v" Line 227: Found full_case directive in module phsaligner_nok. Use of full_case directives may cause differences between RTL and post-synthesis simulation
+WARNING:HDLCompiler:1127 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\rx_nok\dvi_decoder_nok.v" Line 270: Assignment to aux2 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\hdmi_main.v" Line 168: Assignment to rx_pclkx2 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\hdmi_main.v" Line 169: Assignment to rx_pclkx10 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\hdmi_main.v" Line 170: Assignment to rx_pllclk0 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\hdmi_main.v" Line 172: Assignment to rx_pllclk2 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\hdmi_main.v" Line 173: Assignment to rx_plllckd ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\hdmi_main.v" Line 174: Assignment to rx_tmdsclk ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\hdmi_main.v" Line 175: Assignment to rx_serdesstrobe ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\hdmi_main.v" Line 183: Assignment to rx_blue_vld ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\hdmi_main.v" Line 184: Assignment to rx_green_vld ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\hdmi_main.v" Line 185: Assignment to rx_red_vld ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\hdmi_main.v" Line 190: Assignment to rx_psalgnerr ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\hdmi_main.v" Line 192: Assignment to rx_sdata ignored, since the identifier is never used
+
+Elaborating module <rgb2ycbcr>.
+
+Elaborating module <mull>.
+
+Elaborating module <sum>.
+
+Elaborating module <delay_line(N=9,DELAY=2)>.
+
+Elaborating module <delay(N=9)>.
+
+Elaborating module <delay_line(N=1,DELAY=6)>.
+
+Elaborating module <delay(N=1)>.
+
+Elaborating module <PLL_BASE(CLKIN_PERIOD=10,CLKFBOUT_MULT=10,CLKOUT0_DIVIDE=1,CLKOUT1_DIVIDE=10,CLKOUT2_DIVIDE=5,COMPENSATION="SOURCE_SYNCHRONOUS")>.
+
+Elaborating module <BUFGMUX>.
+WARNING:HDLCompiler:1127 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\hdmi_main.v" Line 346: Assignment to tx_bufpll_lock ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\hdmi_main.v" Line 348: Assignment to tx0_reset ignored, since the identifier is never used
+
+Elaborating module <dvi_encoder_top>.
+
+Elaborating module <serdes_n_to_1(SF=5)>.
+
+Elaborating module <OSERDES2(DATA_WIDTH=5,DATA_RATE_OQ="SDR",DATA_RATE_OT="SDR",SERDES_MODE="MASTER",OUTPUT_MODE="DIFFERENTIAL")>.
+
+Elaborating module <OSERDES2(DATA_WIDTH=5,DATA_RATE_OQ="SDR",DATA_RATE_OT="SDR",SERDES_MODE="SLAVE",OUTPUT_MODE="DIFFERENTIAL")>.
+
+Elaborating module <OBUFDS>.
+
+Elaborating module <encode>.
+
+Elaborating module <convert_30to15_fifo>.
+
+Elaborating module <FDC>.
+
+Elaborating module <DRAM16XN(data_width=30)>.
+
+Elaborating module <FDP>.
+
+Elaborating module <FD>.
+
+Elaborating module <FDR>.
+
+Elaborating module <FDRE>.
+
+Elaborating module <FDE>.
+WARNING:HDLCompiler:634 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\hdmi_main.v" Line 209: Net <r_mux[7][7]> does not have a driver.
+WARNING:HDLCompiler:634 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\hdmi_main.v" Line 210: Net <g_mux[7][7]> does not have a driver.
+WARNING:HDLCompiler:634 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\hdmi_main.v" Line 211: Net <b_mux[7][7]> does not have a driver.
+WARNING:HDLCompiler:634 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\hdmi_main.v" Line 212: Net <de_mux[7]> does not have a driver.
+WARNING:HDLCompiler:634 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\hdmi_main.v" Line 213: Net <hsync_mux[7]> does not have a driver.
+WARNING:HDLCompiler:634 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\hdmi_main.v" Line 214: Net <vsync_mux[7]> does not have a driver.
+WARNING:HDLCompiler:634 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\hdmi_main.v" Line 274: Net <tx_reset> does not have a driver.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <hdmi_main>.
+    Related source file is "D:\JiTPS\AdamMichna\hdmi\hdmi\src\hdmi_main.v".
+INFO:Xst:3210 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\hdmi_main.v" line 153: Output port <sdout> of the instance <dvi_rx1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\hdmi_main.v" line 153: Output port <pclkx2> of the instance <dvi_rx1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\hdmi_main.v" line 153: Output port <pclkx10> of the instance <dvi_rx1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\hdmi_main.v" line 153: Output port <pllclk0> of the instance <dvi_rx1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\hdmi_main.v" line 153: Output port <pllclk2> of the instance <dvi_rx1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\hdmi_main.v" line 153: Output port <pll_lckd> of the instance <dvi_rx1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\hdmi_main.v" line 153: Output port <serdesstrobe> of the instance <dvi_rx1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\hdmi_main.v" line 153: Output port <tmdsclk> of the instance <dvi_rx1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\hdmi_main.v" line 153: Output port <blue_vld> of the instance <dvi_rx1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\hdmi_main.v" line 153: Output port <green_vld> of the instance <dvi_rx1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\hdmi_main.v" line 153: Output port <red_vld> of the instance <dvi_rx1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\hdmi_main.v" line 153: Output port <psalgnerr> of the instance <dvi_rx1> is unconnected or connected to loadless signal.
+WARNING:Xst:653 - Signal <r_mux<7>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <r_mux<6>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <r_mux<5>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <r_mux<4>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <r_mux<3>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <r_mux<2>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <g_mux<7>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <g_mux<6>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <g_mux<5>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <g_mux<4>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <g_mux<3>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <g_mux<2>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <b_mux<7>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <b_mux<6>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <b_mux<5>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <b_mux<4>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <b_mux<3>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <b_mux<2>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <de_mux<7:2>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <hsync_mux<7:2>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <vsync_mux<7:2>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <tx_reset> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Summary:
+	inferred  18 Multiplexer(s).
+Unit <hdmi_main> synthesized.
+
+Synthesizing Unit <dvi_decoder_nok>.
+    Related source file is "D:\JiTPS\AdamMichna\hdmi\hdmi\src\rx_nok\dvi_decoder_nok.v".
+INFO:Xst:3210 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\rx_nok\dvi_decoder_nok.v" line 191: Output port <vde> of the instance <dec_b> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\rx_nok\dvi_decoder_nok.v" line 219: Output port <adout> of the instance <dec_g> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\rx_nok\dvi_decoder_nok.v" line 219: Output port <vde> of the instance <dec_g> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\rx_nok\dvi_decoder_nok.v" line 219: Output port <ade> of the instance <dec_g> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\rx_nok\dvi_decoder_nok.v" line 247: Output port <adout> of the instance <dec_r> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\rx_nok\dvi_decoder_nok.v" line 247: Output port <ade> of the instance <dec_r> is unconnected or connected to loadless signal.
+    Found 1-bit register for signal <dilndpreamble>.
+    Found 1-bit register for signal <videopreamble>.
+    Summary:
+	inferred   2 D-type flip-flop(s).
+	inferred   2 Multiplexer(s).
+Unit <dvi_decoder_nok> synthesized.
+
+Synthesizing Unit <decode_nok_1>.
+    Related source file is "D:\JiTPS\AdamMichna\hdmi\hdmi\src\rx_nok\decode_nok.v".
+        CHANNEL = "BLUE"
+WARNING:Xst:647 - Input <dilndpreamble> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 1-bit register for signal <toggle>.
+    Found 5-bit register for signal <raw5bit_q>.
+    Found 10-bit register for signal <rawword>.
+    Found 1-bit register for signal <bitslip_q>.
+    Found 1-bit register for signal <bitslipx2>.
+    Found 1-bit register for signal <control_q>.
+    Found 1-bit register for signal <videoperiod>.
+    Found 1-bit register for signal <c0>.
+    Found 1-bit register for signal <c1>.
+    Found 1-bit register for signal <vde>.
+    Found 1-bit register for signal <ade>.
+    Found 1-bit register for signal <control>.
+    Found 8-bit register for signal <vdout>.
+    Found 4-bit register for signal <adout>.
+    Found 10-bit register for signal <sdout>.
+    Found 1-bit register for signal <flipgearx2>.
+    Summary:
+	inferred  48 D-type flip-flop(s).
+	inferred  10 Multiplexer(s).
+Unit <decode_nok_1> synthesized.
+
+Synthesizing Unit <serdes_1_to_5_diff_data_nok>.
+    Related source file is "D:\JiTPS\AdamMichna\hdmi\hdmi\src\rx_nok\serdes_1_to_5_diff_data_nok.v".
+        DIFF_TERM = "FALSE"
+        SIM_TAP_DELAY = 49
+        BITSLIP_ENABLE = "TRUE"
+    Found 9-bit register for signal <counter>.
+    Found 5-bit register for signal <pdcounter>.
+    Found 4-bit register for signal <state>.
+    Found 1-bit register for signal <cal_data_master>.
+    Found 1-bit register for signal <cal_data_sint>.
+    Found 1-bit register for signal <enable>.
+    Found 1-bit register for signal <ce_data_inta>.
+    Found 1-bit register for signal <flag>.
+    Found 1-bit register for signal <rst_data>.
+    Found 1-bit register for signal <busy_data_d>.
+    Found 1-bit register for signal <incdec_data_d>.
+    Found 1-bit register for signal <valid_data_d>.
+    Found 1-bit register for signal <ce_data>.
+    Found 1-bit register for signal <inc_data_int>.
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 8                                              |
+    | Transitions        | 17                                             |
+    | Inputs             | 3                                              |
+    | Outputs            | 11                                             |
+    | Clock              | gclk (rising_edge)                             |
+    | Reset              | reset (positive)                               |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 0000                                           |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 9-bit adder for signal <counter[8]_GND_10_o_add_2_OUT> created at line 122.
+    Found 5-bit adder for signal <pdcounter[4]_GND_10_o_add_54_OUT> created at line 224.
+    Found 5-bit adder for signal <pdcounter[4]_PWR_10_o_add_57_OUT> created at line 227.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  25 D-type flip-flop(s).
+	inferred  14 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <serdes_1_to_5_diff_data_nok> synthesized.
+
+Synthesizing Unit <phsaligner_nok_1>.
+    Related source file is "D:\JiTPS\AdamMichna\hdmi\hdmi\src\rx_nok\phsaligner_nok.v".
+        OPENEYE_CNT_WD = 3
+        CTKNCNTWD = 4
+        SRCHTIMERWD = 12
+        CHANNEL = "BLUE"
+    Found 1-bit register for signal <ctkn_srh_rst>.
+    Found 1-bit register for signal <ctkn_cnt_rst>.
+    Found 3-bit register for signal <bitslip_cnt>.
+    Found 6-bit register for signal <cstate>.
+    Found 1-bit register for signal <psaligned>.
+    Found 1-bit register for signal <bitslip>.
+    Found 1-bit register for signal <flipgear>.
+    Found 1-bit register for signal <blnkprd_cnt>.
+    Found 1-bit register for signal <rcvd_ctkn_q>.
+    Found 1-bit register for signal <blnkbgn>.
+    Found 12-bit register for signal <ctkn_srh_timer>.
+    Found 1-bit register for signal <ctkn_srh_tout>.
+    Found 4-bit register for signal <ctkn_counter>.
+    Found 1-bit register for signal <ctkn_cnt_tout>.
+    Found 1-bit register for signal <rcvd_ctkn>.
+    Found finite state machine <FSM_1> for signal <cstate>.
+    -----------------------------------------------------------------------
+    | States             | 6                                              |
+    | Transitions        | 12                                             |
+    | Inputs             | 5                                              |
+    | Outputs            | 6                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | rst (positive)                                 |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 000001                                         |
+    | Power Up State     | 000001                                         |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 12-bit adder for signal <ctkn_srh_timer[11]_GND_18_o_add_6_OUT> created at line 104.
+    Found 4-bit adder for signal <ctkn_counter[3]_GND_18_o_add_12_OUT> created at line 128.
+    Found 3-bit adder for signal <bitslip_cnt[2]_GND_18_o_add_32_OUT> created at line 257.
+    Found 1-bit adder for signal <blnkprd_cnt[0]_PWR_17_o_add_33_OUT<0>> created at line 267.
+    Summary:
+	inferred   4 Adder/Subtractor(s).
+	inferred  30 D-type flip-flop(s).
+	inferred   1 Finite State Machine(s).
+Unit <phsaligner_nok_1> synthesized.
+
+Synthesizing Unit <chnlbond>.
+    Related source file is "D:\JiTPS\AdamMichna\hdmi\hdmi\src\rx\chnlbond.v".
+        CTRLTOKEN0 = 10'b1101010100
+        CTRLTOKEN1 = 10'b0010101011
+        CTRLTOKEN2 = 10'b0101010100
+        CTRLTOKEN3 = 10'b1010101011
+INFO:Xst:3210 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\rx\chnlbond.v" line 86: Output port <O_DATA_OUT> of the instance <cbfifo_i> is unconnected or connected to loadless signal.
+    Register <we> equivalent to <rawdata_vld_q> has been removed
+    Found 4-bit register for signal <wa>.
+    Found 10-bit register for signal <sdata>.
+    Found 1-bit register for signal <rcvd_ctkn>.
+    Found 1-bit register for signal <rcvd_ctkn_q>.
+    Found 1-bit register for signal <blnkbgn>.
+    Found 1-bit register for signal <skip_line>.
+    Found 1-bit register for signal <iamrdy>.
+    Found 1-bit register for signal <rawdata_vld_q>.
+    Found 1-bit register for signal <rawdata_vld_rising>.
+    Found 1-bit register for signal <ra_en>.
+    Found 4-bit register for signal <ra>.
+    Found 4-bit adder for signal <wa[3]_GND_20_o_add_2_OUT> created at line 79.
+    Found 4-bit adder for signal <ra[3]_GND_20_o_add_17_OUT> created at line 167.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  26 D-type flip-flop(s).
+Unit <chnlbond> synthesized.
+
+Synthesizing Unit <DRAM16XN_1>.
+    Related source file is "D:\JiTPS\AdamMichna\hdmi\hdmi\src\common\DRAM16XN.v".
+        data_width = 10
+    Summary:
+	no macro.
+Unit <DRAM16XN_1> synthesized.
+
+Synthesizing Unit <decode_nok_2>.
+    Related source file is "D:\JiTPS\AdamMichna\hdmi\hdmi\src\rx_nok\decode_nok.v".
+        CHANNEL = "GREEN"
+    Found 1-bit register for signal <toggle>.
+    Found 5-bit register for signal <raw5bit_q>.
+    Found 10-bit register for signal <rawword>.
+    Found 1-bit register for signal <bitslip_q>.
+    Found 1-bit register for signal <bitslipx2>.
+    Found 1-bit register for signal <control_q>.
+    Found 1-bit register for signal <videoperiod>.
+    Found 1-bit register for signal <dilndperiod>.
+    Found 1-bit register for signal <c0>.
+    Found 1-bit register for signal <c1>.
+    Found 1-bit register for signal <vde>.
+    Found 1-bit register for signal <ade>.
+    Found 1-bit register for signal <control>.
+    Found 8-bit register for signal <vdout>.
+    Found 4-bit register for signal <adout>.
+    Found 10-bit register for signal <sdout>.
+    Found 1-bit register for signal <flipgearx2>.
+    Summary:
+	inferred  49 D-type flip-flop(s).
+	inferred  10 Multiplexer(s).
+Unit <decode_nok_2> synthesized.
+
+Synthesizing Unit <phsaligner_nok_2>.
+    Related source file is "D:\JiTPS\AdamMichna\hdmi\hdmi\src\rx_nok\phsaligner_nok.v".
+        OPENEYE_CNT_WD = 3
+        CTKNCNTWD = 4
+        SRCHTIMERWD = 12
+        CHANNEL = "GREEN"
+    Found 1-bit register for signal <ctkn_srh_rst>.
+    Found 1-bit register for signal <ctkn_cnt_rst>.
+    Found 3-bit register for signal <bitslip_cnt>.
+    Found 6-bit register for signal <cstate>.
+    Found 1-bit register for signal <psaligned>.
+    Found 1-bit register for signal <bitslip>.
+    Found 1-bit register for signal <flipgear>.
+    Found 1-bit register for signal <blnkprd_cnt>.
+    Found 1-bit register for signal <rcvd_ctkn_q>.
+    Found 1-bit register for signal <blnkbgn>.
+    Found 12-bit register for signal <ctkn_srh_timer>.
+    Found 1-bit register for signal <ctkn_srh_tout>.
+    Found 4-bit register for signal <ctkn_counter>.
+    Found 1-bit register for signal <ctkn_cnt_tout>.
+    Found 1-bit register for signal <rcvd_ctkn>.
+    Found finite state machine <FSM_2> for signal <cstate>.
+    -----------------------------------------------------------------------
+    | States             | 6                                              |
+    | Transitions        | 12                                             |
+    | Inputs             | 5                                              |
+    | Outputs            | 6                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | rst (positive)                                 |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 000001                                         |
+    | Power Up State     | 000001                                         |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 12-bit adder for signal <ctkn_srh_timer[11]_GND_24_o_add_6_OUT> created at line 104.
+    Found 4-bit adder for signal <ctkn_counter[3]_GND_24_o_add_12_OUT> created at line 128.
+    Found 3-bit adder for signal <bitslip_cnt[2]_GND_24_o_add_32_OUT> created at line 257.
+    Found 1-bit adder for signal <blnkprd_cnt[0]_PWR_22_o_add_33_OUT<0>> created at line 267.
+    Summary:
+	inferred   4 Adder/Subtractor(s).
+	inferred  30 D-type flip-flop(s).
+	inferred   1 Finite State Machine(s).
+Unit <phsaligner_nok_2> synthesized.
+
+Synthesizing Unit <decode_nok_3>.
+    Related source file is "D:\JiTPS\AdamMichna\hdmi\hdmi\src\rx_nok\decode_nok.v".
+        CHANNEL = "RED"
+    Found 1-bit register for signal <toggle>.
+    Found 5-bit register for signal <raw5bit_q>.
+    Found 10-bit register for signal <rawword>.
+    Found 1-bit register for signal <bitslip_q>.
+    Found 1-bit register for signal <bitslipx2>.
+    Found 1-bit register for signal <control_q>.
+    Found 1-bit register for signal <videoperiod>.
+    Found 1-bit register for signal <dilndperiod>.
+    Found 1-bit register for signal <c0>.
+    Found 1-bit register for signal <c1>.
+    Found 1-bit register for signal <vde>.
+    Found 1-bit register for signal <ade>.
+    Found 1-bit register for signal <control>.
+    Found 8-bit register for signal <vdout>.
+    Found 4-bit register for signal <adout>.
+    Found 10-bit register for signal <sdout>.
+    Found 1-bit register for signal <flipgearx2>.
+    Summary:
+	inferred  49 D-type flip-flop(s).
+	inferred  10 Multiplexer(s).
+Unit <decode_nok_3> synthesized.
+
+Synthesizing Unit <phsaligner_nok_3>.
+    Related source file is "D:\JiTPS\AdamMichna\hdmi\hdmi\src\rx_nok\phsaligner_nok.v".
+        OPENEYE_CNT_WD = 3
+        CTKNCNTWD = 4
+        SRCHTIMERWD = 12
+        CHANNEL = "RED"
+    Found 1-bit register for signal <ctkn_srh_rst>.
+    Found 1-bit register for signal <ctkn_cnt_rst>.
+    Found 3-bit register for signal <bitslip_cnt>.
+    Found 6-bit register for signal <cstate>.
+    Found 1-bit register for signal <psaligned>.
+    Found 1-bit register for signal <bitslip>.
+    Found 1-bit register for signal <flipgear>.
+    Found 1-bit register for signal <blnkprd_cnt>.
+    Found 1-bit register for signal <rcvd_ctkn_q>.
+    Found 1-bit register for signal <blnkbgn>.
+    Found 12-bit register for signal <ctkn_srh_timer>.
+    Found 1-bit register for signal <ctkn_srh_tout>.
+    Found 4-bit register for signal <ctkn_counter>.
+    Found 1-bit register for signal <ctkn_cnt_tout>.
+    Found 1-bit register for signal <rcvd_ctkn>.
+    Found finite state machine <FSM_3> for signal <cstate>.
+    -----------------------------------------------------------------------
+    | States             | 6                                              |
+    | Transitions        | 12                                             |
+    | Inputs             | 5                                              |
+    | Outputs            | 6                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | rst (positive)                                 |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 000001                                         |
+    | Power Up State     | 000001                                         |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 12-bit adder for signal <ctkn_srh_timer[11]_GND_27_o_add_6_OUT> created at line 104.
+    Found 4-bit adder for signal <ctkn_counter[3]_GND_27_o_add_12_OUT> created at line 128.
+    Found 3-bit adder for signal <bitslip_cnt[2]_GND_27_o_add_32_OUT> created at line 257.
+    Found 1-bit adder for signal <blnkprd_cnt[0]_PWR_24_o_add_33_OUT<0>> created at line 267.
+    Summary:
+	inferred   4 Adder/Subtractor(s).
+	inferred  30 D-type flip-flop(s).
+	inferred   1 Finite State Machine(s).
+Unit <phsaligner_nok_3> synthesized.
+
+Synthesizing Unit <rgb2ycbcr>.
+    Related source file is "D:\JiTPS\AdamMichna\hdmi\hdmi\rgb2ycbcr.v".
+    Summary:
+	no macro.
+Unit <rgb2ycbcr> synthesized.
+
+Synthesizing Unit <delay_line_1>.
+    Related source file is "D:\JiTPS\AdamMichna\hdmi\hdmi\delay_line.v".
+        N = 9
+        DELAY = 2
+    Summary:
+	no macro.
+Unit <delay_line_1> synthesized.
+
+Synthesizing Unit <delay_1>.
+    Related source file is "D:\JiTPS\AdamMichna\hdmi\hdmi\delay.v".
+        N = 9
+    Found 9-bit register for signal <temp>.
+    Summary:
+	inferred   9 D-type flip-flop(s).
+Unit <delay_1> synthesized.
+
+Synthesizing Unit <delay_line_2>.
+    Related source file is "D:\JiTPS\AdamMichna\hdmi\hdmi\delay_line.v".
+        N = 1
+        DELAY = 6
+    Summary:
+	no macro.
+Unit <delay_line_2> synthesized.
+
+Synthesizing Unit <delay_2>.
+    Related source file is "D:\JiTPS\AdamMichna\hdmi\hdmi\delay.v".
+        N = 1
+    Found 1-bit register for signal <temp>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <delay_2> synthesized.
+
+Synthesizing Unit <dvi_encoder_top>.
+    Related source file is "D:\JiTPS\AdamMichna\hdmi\hdmi\src\tx\dvi_encoder_top.v".
+    Found 5-bit register for signal <tmdsclkint>.
+    Found 1-bit register for signal <toggle>.
+    Summary:
+	inferred   6 D-type flip-flop(s).
+Unit <dvi_encoder_top> synthesized.
+
+Synthesizing Unit <serdes_n_to_1>.
+    Related source file is "D:\JiTPS\AdamMichna\hdmi\hdmi\src\tx\serdes_n_to_1.v".
+        SF = 5
+    Summary:
+	no macro.
+Unit <serdes_n_to_1> synthesized.
+
+Synthesizing Unit <encode>.
+    Related source file is "D:\JiTPS\AdamMichna\hdmi\hdmi\src\tx\encode.v".
+        CTRLTOKEN0 = 10'b1101010100
+        CTRLTOKEN1 = 10'b0010101011
+        CTRLTOKEN2 = 10'b0101010100
+        CTRLTOKEN3 = 10'b1010101011
+    Found 10-bit register for signal <dout>.
+    Found 5-bit register for signal <cnt>.
+    Found 8-bit register for signal <din_q>.
+    Found 4-bit register for signal <n1q_m>.
+    Found 4-bit register for signal <n0q_m>.
+    Found 1-bit register for signal <de_q>.
+    Found 1-bit register for signal <de_reg>.
+    Found 1-bit register for signal <c0_q>.
+    Found 1-bit register for signal <c0_reg>.
+    Found 1-bit register for signal <c1_q>.
+    Found 1-bit register for signal <c1_reg>.
+    Found 9-bit register for signal <q_m_reg>.
+    Found 4-bit register for signal <n1d>.
+    Found 4-bit subtractor for signal <PWR_39_o_BUS_0017_sub_29_OUT> created at line 110.
+    Found 5-bit subtractor for signal <n0233> created at line 169.
+    Found 5-bit subtractor for signal <n0235> created at line 175.
+    Found 5-bit subtractor for signal <n0236> created at line 175.
+    Found 2-bit adder for signal <n0183[1:0]> created at line 66.
+    Found 3-bit adder for signal <n0186[2:0]> created at line 66.
+    Found 2-bit adder for signal <n0204[1:0]> created at line 109.
+    Found 3-bit adder for signal <n0207[2:0]> created at line 109.
+    Found 5-bit adder for signal <n0232> created at line 169.
+    Found 5-bit adder for signal <cnt[4]_GND_43_o_add_47_OUT> created at line 169.
+    Found 5-bit adder for signal <cnt[4]_GND_43_o_add_50_OUT> created at line 175.
+    Found 4-bit adder for signal <_n0248> created at line 66.
+    Found 4-bit adder for signal <_n0249> created at line 66.
+    Found 4-bit adder for signal <_n0250> created at line 66.
+    Found 4-bit adder for signal <_n0251> created at line 66.
+    Found 4-bit adder for signal <BUS_0003_GND_43_o_add_7_OUT> created at line 66.
+    Found 4-bit adder for signal <_n0253> created at line 109.
+    Found 4-bit adder for signal <_n0254> created at line 109.
+    Found 4-bit adder for signal <_n0255> created at line 109.
+    Found 4-bit adder for signal <_n0256> created at line 109.
+    Found 4-bit adder for signal <BUS_0010_GND_43_o_add_20_OUT> created at line 109.
+    Found 5-bit adder for signal <cnt[4]_GND_43_o_sub_41_OUT> created at line 162.
+    Found 5-bit adder for signal <cnt[4]_GND_43_o_sub_43_OUT> created at line 162.
+    Found 4x10-bit Read Only RAM for signal <c1_reg_PWR_39_o_wide_mux_53_OUT>
+    Found 4-bit comparator greater for signal <GND_43_o_n1d[3]_LessThan_11_o> created at line 77
+    Found 4-bit comparator equal for signal <n1q_m[3]_n0q_m[3]_equal_33_o> created at line 121
+    Found 4-bit comparator greater for signal <n0q_m[3]_n1q_m[3]_LessThan_34_o> created at line 125
+    Found 4-bit comparator greater for signal <n1q_m[3]_n0q_m[3]_LessThan_35_o> created at line 125
+    Summary:
+	inferred   1 RAM(s).
+	inferred  23 Adder/Subtractor(s).
+	inferred  50 D-type flip-flop(s).
+	inferred   4 Comparator(s).
+	inferred  37 Multiplexer(s).
+Unit <encode> synthesized.
+
+Synthesizing Unit <convert_30to15_fifo>.
+    Related source file is "D:\JiTPS\AdamMichna\hdmi\hdmi\src\tx\convert_30to15_fifo.v".
+        ADDR0 = 4'b0000
+        ADDR1 = 4'b0001
+        ADDR2 = 4'b0010
+        ADDR3 = 4'b0011
+        ADDR4 = 4'b0100
+        ADDR5 = 4'b0101
+        ADDR6 = 4'b0110
+        ADDR7 = 4'b0111
+        ADDR8 = 4'b1000
+        ADDR9 = 4'b1001
+        ADDR10 = 4'b1010
+        ADDR11 = 4'b1011
+        ADDR12 = 4'b1100
+        ADDR13 = 4'b1101
+        ADDR14 = 4'b1110
+        ADDR15 = 4'b1111
+    Set property "ASYNC_REG = TRUE" for instance <fdp_rst>.
+INFO:Xst:3210 - "D:\JiTPS\AdamMichna\hdmi\hdmi\src\tx\convert_30to15_fifo.v" line 64: Output port <O_DATA_OUT> of the instance <fifo_u> is unconnected or connected to loadless signal.
+    Found 16x4-bit Read Only RAM for signal <wa_d>
+    Found 16x4-bit Read Only RAM for signal <ra_d>
+    Summary:
+	inferred   2 RAM(s).
+	inferred   1 Multiplexer(s).
+Unit <convert_30to15_fifo> synthesized.
+
+Synthesizing Unit <DRAM16XN_2>.
+    Related source file is "D:\JiTPS\AdamMichna\hdmi\hdmi\src\common\DRAM16XN.v".
+        data_width = 30
+    Summary:
+	no macro.
+Unit <DRAM16XN_2> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 5
+ 16x4-bit single-port Read Only RAM                    : 2
+ 4x10-bit single-port Read Only RAM                    : 3
+# Adders/Subtractors                                   : 93
+ 1-bit adder                                           : 3
+ 12-bit adder                                          : 3
+ 2-bit adder                                           : 6
+ 3-bit adder                                           : 9
+ 4-bit adder                                           : 39
+ 4-bit subtractor                                      : 3
+ 5-bit adder                                           : 18
+ 5-bit subtractor                                      : 9
+ 9-bit adder                                           : 3
+# Registers                                            : 224
+ 1-bit register                                        : 158
+ 10-bit register                                       : 12
+ 12-bit register                                       : 3
+ 2-bit register                                        : 3
+ 3-bit register                                        : 3
+ 4-bit register                                        : 21
+ 5-bit register                                        : 10
+ 8-bit register                                        : 6
+ 9-bit register                                        : 8
+# Comparators                                          : 12
+ 4-bit comparator equal                                : 3
+ 4-bit comparator greater                              : 9
+# Multiplexers                                         : 204
+ 1-bit 2-to-1 multiplexer                              : 160
+ 10-bit 2-to-1 multiplexer                             : 3
+ 15-bit 2-to-1 multiplexer                             : 1
+ 4-bit 2-to-1 multiplexer                              : 1
+ 5-bit 2-to-1 multiplexer                              : 24
+ 8-bit 2-to-1 multiplexer                              : 12
+ 9-bit 2-to-1 multiplexer                              : 3
+# FSMs                                                 : 6
+# Xors                                                 : 87
+ 1-bit xor2                                            : 87
+
+=========================================================================
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <ipcore_dir/mull.ngc>.
+Reading Secure Unit <blk00000001>.
+Reading core <ipcore_dir/sum.ngc>.
+Reading Secure Unit <blk00000001>.
+Loading core <mull> for timing and area information for instance <mull_YR>.
+Loading core <mull> for timing and area information for instance <mull_YG>.
+Loading core <mull> for timing and area information for instance <mull_YB>.
+Loading core <mull> for timing and area information for instance <mull_CbR>.
+Loading core <mull> for timing and area information for instance <mull_CbG>.
+Loading core <mull> for timing and area information for instance <mull_CbB>.
+Loading core <mull> for timing and area information for instance <mull_CrR>.
+Loading core <mull> for timing and area information for instance <mull_CrG>.
+Loading core <mull> for timing and area information for instance <mull_CrB>.
+Loading core <sum> for timing and area information for instance <Y_RG>.
+Loading core <sum> for timing and area information for instance <Y_RGB>.
+Loading core <sum> for timing and area information for instance <Cb_RG>.
+Loading core <sum> for timing and area information for instance <Cb_RGB>.
+Loading core <sum> for timing and area information for instance <Cb_RGB_total>.
+Loading core <sum> for timing and area information for instance <Cr_RG>.
+Loading core <sum> for timing and area information for instance <Cr_RGB>.
+Loading core <sum> for timing and area information for instance <Cr_RGB_total>.
+INFO:Xst:2261 - The FF/Latch <tmdsclkint_0> in Unit <dvi_tx> is equivalent to the following 4 FFs/Latches, which will be removed : <tmdsclkint_1> <tmdsclkint_2> <tmdsclkint_3> <tmdsclkint_4> 
+WARNING:Xst:1710 - FF/Latch <c1_q> (without init value) has a constant value of 0 in block <encg>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <c0_q> (without init value) has a constant value of 0 in block <encg>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <c1_q> (without init value) has a constant value of 0 in block <encr>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <c0_q> (without init value) has a constant value of 0 in block <encr>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <c0_reg> (without init value) has a constant value of 0 in block <encg>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <c1_reg> (without init value) has a constant value of 0 in block <encg>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <c0_reg> (without init value) has a constant value of 0 in block <encr>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <c1_reg> (without init value) has a constant value of 0 in block <encr>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <temp_8> of sequential type is unconnected in block <[0].delay_i>.
+WARNING:Xst:2677 - Node <temp_8> of sequential type is unconnected in block <[1].delay_i>.
+
+Synthesizing (advanced) Unit <chnlbond>.
+The following registers are absorbed into counter <wa>: 1 register on signal <wa>.
+The following registers are absorbed into counter <ra>: 1 register on signal <ra>.
+Unit <chnlbond> synthesized (advanced).
+
+Synthesizing (advanced) Unit <convert_30to15_fifo>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_wa_d> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 4-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <wa>            |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <wa_d>          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_ra_d> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 4-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <ra>            |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to signal <ra_d>          |          |
+    -----------------------------------------------------------------------
+Unit <convert_30to15_fifo> synthesized (advanced).
+
+Synthesizing (advanced) Unit <encode>.
+	The following adders/subtractors are grouped into adder tree <Madd_BUS_0010_GND_43_o_add_20_OUT_Madd1> :
+ 	<Madd__n0253> in block <encode>, 	<Madd__n0254> in block <encode>, 	<Madd__n0256_Madd> in block <encode>, 	<Madd_n0204[1:0]> in block <encode>, 	<Madd_BUS_0010_GND_43_o_add_20_OUT_Madd> in block <encode>.
+	The following adders/subtractors are grouped into adder tree <Madd_BUS_0003_GND_43_o_add_7_OUT_Madd1> :
+ 	<Madd__n0248> in block <encode>, 	<Madd__n0249> in block <encode>, 	<Madd__n0251_Madd> in block <encode>, 	<Madd_n0183[1:0]> in block <encode>, 	<Madd_BUS_0003_GND_43_o_add_7_OUT_Madd> in block <encode>.
+INFO:Xst:3231 - The small RAM <Mram_c1_reg_PWR_39_o_wide_mux_53_OUT> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 4-word x 10-bit                     |          |
+    |     weA            | connected to signal <GND>           | high     |
+    |     addrA          | connected to signal <(c1_reg,c0_reg)> |          |
+    |     diA            | connected to signal <GND>           |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+INFO:Xst:3217 - HDL ADVISOR - Register <dout> currently described with an asynchronous reset, could be combined with distributed RAM <Mram_c1_reg_PWR_39_o_wide_mux_53_OUT> for implementation on block RAM resources if you made this reset synchronous instead.
+Unit <encode> synthesized (advanced).
+
+Synthesizing (advanced) Unit <phsaligner_nok_1>.
+The following registers are absorbed into counter <ctkn_srh_timer>: 1 register on signal <ctkn_srh_timer>.
+The following registers are absorbed into counter <ctkn_counter>: 1 register on signal <ctkn_counter>.
+Unit <phsaligner_nok_1> synthesized (advanced).
+
+Synthesizing (advanced) Unit <phsaligner_nok_2>.
+The following registers are absorbed into counter <ctkn_srh_timer>: 1 register on signal <ctkn_srh_timer>.
+The following registers are absorbed into counter <ctkn_counter>: 1 register on signal <ctkn_counter>.
+Unit <phsaligner_nok_2> synthesized (advanced).
+
+Synthesizing (advanced) Unit <phsaligner_nok_3>.
+The following registers are absorbed into counter <ctkn_srh_timer>: 1 register on signal <ctkn_srh_timer>.
+The following registers are absorbed into counter <ctkn_counter>: 1 register on signal <ctkn_counter>.
+Unit <phsaligner_nok_3> synthesized (advanced).
+
+Synthesizing (advanced) Unit <serdes_1_to_5_diff_data_nok>.
+The following registers are absorbed into counter <counter>: 1 register on signal <counter>.
+Unit <serdes_1_to_5_diff_data_nok> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 5
+ 16x4-bit single-port distributed Read Only RAM        : 2
+ 4x10-bit single-port distributed Read Only RAM        : 3
+# Adders/Subtractors                                   : 36
+ 1-bit adder                                           : 3
+ 3-bit adder                                           : 3
+ 4-bit subtractor                                      : 3
+ 5-bit adder                                           : 18
+ 5-bit subtractor                                      : 9
+# Adder Trees                                          : 6
+ 4-bit / 6-inputs adder tree                           : 6
+# Counters                                             : 15
+ 12-bit up counter                                     : 3
+ 4-bit up counter                                      : 9
+ 9-bit up counter                                      : 3
+# Registers                                            : 541
+ Flip-Flops                                            : 541
+# Comparators                                          : 12
+ 4-bit comparator equal                                : 3
+ 4-bit comparator greater                              : 9
+# Multiplexers                                         : 201
+ 1-bit 2-to-1 multiplexer                              : 160
+ 10-bit 2-to-1 multiplexer                             : 3
+ 15-bit 2-to-1 multiplexer                             : 1
+ 4-bit 2-to-1 multiplexer                              : 1
+ 5-bit 2-to-1 multiplexer                              : 24
+ 8-bit 2-to-1 multiplexer                              : 12
+# FSMs                                                 : 6
+# Xors                                                 : 87
+ 1-bit xor2                                            : 87
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:2261 - The FF/Latch <tmdsclkint_0> in Unit <dvi_encoder_top> is equivalent to the following 4 FFs/Latches, which will be removed : <tmdsclkint_1> <tmdsclkint_2> <tmdsclkint_3> <tmdsclkint_4> 
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <dvi_rx1/dec_b/FSM_0> on signal <state[1:4]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 0000  | 0000
+ 0100  | 0100
+ 0101  | 0101
+ 0110  | 0110
+ 0111  | 0111
+ 0010  | 0010
+ 0011  | 0011
+ 0001  | 0001
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <dvi_rx1/dec_b/phsalgn_0/FSM_1> on signal <cstate[1:6]> with user encoding.
+--------------------
+ State  | Encoding
+--------------------
+ 000001 | 000001
+ 000010 | 000010
+ 000100 | 000100
+ 001000 | 001000
+ 010000 | 010000
+ 100000 | 100000
+--------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <dvi_rx1/dec_g/FSM_0> on signal <state[1:4]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 0000  | 0000
+ 0100  | 0100
+ 0101  | 0101
+ 0110  | 0110
+ 0111  | 0111
+ 0010  | 0010
+ 0011  | 0011
+ 0001  | 0001
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <dvi_rx1/dec_g/phsalgn_0/FSM_2> on signal <cstate[1:6]> with user encoding.
+--------------------
+ State  | Encoding
+--------------------
+ 000001 | 000001
+ 000010 | 000010
+ 000100 | 000100
+ 001000 | 001000
+ 010000 | 010000
+ 100000 | 100000
+--------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <dvi_rx1/dec_r/FSM_0> on signal <state[1:4]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 0000  | 0000
+ 0100  | 0100
+ 0101  | 0101
+ 0110  | 0110
+ 0111  | 0111
+ 0010  | 0010
+ 0011  | 0011
+ 0001  | 0001
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <dvi_rx1/dec_r/phsalgn_0/FSM_3> on signal <cstate[1:6]> with user encoding.
+--------------------
+ State  | Encoding
+--------------------
+ 000001 | 000001
+ 000010 | 000010
+ 000100 | 000100
+ 001000 | 001000
+ 010000 | 010000
+ 100000 | 100000
+--------------------
+INFO:Xst:1901 - Instance PLL_ISERDES in unit PLL_ISERDES of type PLL_BASE has been replaced by PLL_ADV
+INFO:Xst:1901 - Instance PLL_OSERDES_0 in unit PLL_OSERDES_0 of type PLL_BASE has been replaced by PLL_ADV
+INFO:Xst:2261 - The FF/Latch <n1q_m_0> in Unit <encode> is equivalent to the following FF/Latch, which will be removed : <n0q_m_0> 
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <n1q_m_0> is unconnected in block <encode>.
+
+Optimizing unit <DRAM16XN_1> ...
+
+Optimizing unit <rgb2ycbcr> ...
+
+Optimizing unit <delay_1> ...
+
+Optimizing unit <DRAM16XN_2> ...
+
+Optimizing unit <hdmi_main> ...
+
+Optimizing unit <dvi_decoder_nok> ...
+
+Optimizing unit <decode_nok_1> ...
+
+Optimizing unit <phsaligner_nok_1> ...
+
+Optimizing unit <decode_nok_2> ...
+
+Optimizing unit <phsaligner_nok_2> ...
+
+Optimizing unit <decode_nok_3> ...
+
+Optimizing unit <phsaligner_nok_3> ...
+
+Optimizing unit <dvi_encoder_top> ...
+
+Optimizing unit <encode> ...
+WARNING:Xst:1710 - FF/Latch <cnt_0> (without init value) has a constant value of 0 in block <encode>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <convert_30to15_fifo> ...
+WARNING:Xst:1710 - FF/Latch <dvi_tx/encr/c1_q> (without init value) has a constant value of 0 in block <hdmi_main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <dvi_tx/encr/c0_q> (without init value) has a constant value of 0 in block <hdmi_main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <dvi_tx/encg/c1_q> (without init value) has a constant value of 0 in block <hdmi_main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <dvi_tx/encg/c0_q> (without init value) has a constant value of 0 in block <hdmi_main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dvi_tx/encr/c1_reg> (without init value) has a constant value of 0 in block <hdmi_main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dvi_tx/encr/c0_reg> (without init value) has a constant value of 0 in block <hdmi_main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dvi_tx/encg/c1_reg> (without init value) has a constant value of 0 in block <hdmi_main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <dvi_tx/encg/c0_reg> (without init value) has a constant value of 0 in block <hdmi_main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <dvi_rx1/dec_b/sdout_9> of sequential type is unconnected in block <hdmi_main>.
+WARNING:Xst:2677 - Node <dvi_rx1/dec_b/sdout_8> of sequential type is unconnected in block <hdmi_main>.
+WARNING:Xst:2677 - Node <dvi_rx1/dec_b/sdout_7> of sequential type is unconnected in block <hdmi_main>.
+WARNING:Xst:2677 - Node <dvi_rx1/dec_b/sdout_6> of sequential type is unconnected in block <hdmi_main>.
+WARNING:Xst:2677 - Node <dvi_rx1/dec_b/sdout_5> of sequential type is unconnected in block <hdmi_main>.
+WARNING:Xst:2677 - Node <dvi_rx1/dec_b/sdout_4> of sequential type is unconnected in block <hdmi_main>.
+WARNING:Xst:2677 - Node <dvi_rx1/dec_b/sdout_3> of sequential type is unconnected in block <hdmi_main>.
+WARNING:Xst:2677 - Node <dvi_rx1/dec_b/sdout_2> of sequential type is unconnected in block <hdmi_main>.
+WARNING:Xst:2677 - Node <dvi_rx1/dec_b/sdout_1> of sequential type is unconnected in block <hdmi_main>.
+WARNING:Xst:2677 - Node <dvi_rx1/dec_b/sdout_0> of sequential type is unconnected in block <hdmi_main>.
+WARNING:Xst:2677 - Node <dvi_rx1/dec_b/vde> of sequential type is unconnected in block <hdmi_main>.
+WARNING:Xst:2677 - Node <dvi_rx1/dec_b/adout_3> of sequential type is unconnected in block <hdmi_main>.
+WARNING:Xst:2677 - Node <dvi_rx1/dec_b/adout_2> of sequential type is unconnected in block <hdmi_main>.
+WARNING:Xst:2677 - Node <dvi_rx1/dec_g/sdout_9> of sequential type is unconnected in block <hdmi_main>.
+WARNING:Xst:2677 - Node <dvi_rx1/dec_g/sdout_8> of sequential type is unconnected in block <hdmi_main>.
+WARNING:Xst:2677 - Node <dvi_rx1/dec_g/sdout_7> of sequential type is unconnected in block <hdmi_main>.
+WARNING:Xst:2677 - Node <dvi_rx1/dec_g/sdout_6> of sequential type is unconnected in block <hdmi_main>.
+WARNING:Xst:2677 - Node <dvi_rx1/dec_g/sdout_5> of sequential type is unconnected in block <hdmi_main>.
+WARNING:Xst:2677 - Node <dvi_rx1/dec_g/sdout_4> of sequential type is unconnected in block <hdmi_main>.
+WARNING:Xst:2677 - Node <dvi_rx1/dec_g/sdout_3> of sequential type is unconnected in block <hdmi_main>.
+WARNING:Xst:2677 - Node <dvi_rx1/dec_g/sdout_2> of sequential type is unconnected in block <hdmi_main>.
+WARNING:Xst:2677 - Node <dvi_rx1/dec_g/sdout_1> of sequential type is unconnected in block <hdmi_main>.
+WARNING:Xst:2677 - Node <dvi_rx1/dec_g/sdout_0> of sequential type is unconnected in block <hdmi_main>.
+WARNING:Xst:2677 - Node <dvi_rx1/dec_g/ade> of sequential type is unconnected in block <hdmi_main>.
+WARNING:Xst:2677 - Node <dvi_rx1/dec_g/dilndperiod> of sequential type is unconnected in block <hdmi_main>.
+WARNING:Xst:2677 - Node <dvi_rx1/dec_g/adout_3> of sequential type is unconnected in block <hdmi_main>.
+WARNING:Xst:2677 - Node <dvi_rx1/dec_g/adout_2> of sequential type is unconnected in block <hdmi_main>.
+WARNING:Xst:2677 - Node <dvi_rx1/dec_g/adout_1> of sequential type is unconnected in block <hdmi_main>.
+WARNING:Xst:2677 - Node <dvi_rx1/dec_g/adout_0> of sequential type is unconnected in block <hdmi_main>.
+WARNING:Xst:2677 - Node <dvi_rx1/dec_g/vde> of sequential type is unconnected in block <hdmi_main>.
+WARNING:Xst:2677 - Node <dvi_rx1/dec_r/sdout_9> of sequential type is unconnected in block <hdmi_main>.
+WARNING:Xst:2677 - Node <dvi_rx1/dec_r/sdout_8> of sequential type is unconnected in block <hdmi_main>.
+WARNING:Xst:2677 - Node <dvi_rx1/dec_r/sdout_7> of sequential type is unconnected in block <hdmi_main>.
+WARNING:Xst:2677 - Node <dvi_rx1/dec_r/sdout_6> of sequential type is unconnected in block <hdmi_main>.
+WARNING:Xst:2677 - Node <dvi_rx1/dec_r/sdout_5> of sequential type is unconnected in block <hdmi_main>.
+WARNING:Xst:2677 - Node <dvi_rx1/dec_r/sdout_4> of sequential type is unconnected in block <hdmi_main>.
+WARNING:Xst:2677 - Node <dvi_rx1/dec_r/sdout_3> of sequential type is unconnected in block <hdmi_main>.
+WARNING:Xst:2677 - Node <dvi_rx1/dec_r/sdout_2> of sequential type is unconnected in block <hdmi_main>.
+WARNING:Xst:2677 - Node <dvi_rx1/dec_r/sdout_1> of sequential type is unconnected in block <hdmi_main>.
+WARNING:Xst:2677 - Node <dvi_rx1/dec_r/sdout_0> of sequential type is unconnected in block <hdmi_main>.
+WARNING:Xst:2677 - Node <dvi_rx1/dec_r/ade> of sequential type is unconnected in block <hdmi_main>.
+WARNING:Xst:2677 - Node <dvi_rx1/dec_r/adout_3> of sequential type is unconnected in block <hdmi_main>.
+WARNING:Xst:2677 - Node <dvi_rx1/dec_r/adout_2> of sequential type is unconnected in block <hdmi_main>.
+WARNING:Xst:2677 - Node <dvi_rx1/dec_r/adout_1> of sequential type is unconnected in block <hdmi_main>.
+WARNING:Xst:2677 - Node <dvi_rx1/dec_r/adout_0> of sequential type is unconnected in block <hdmi_main>.
+WARNING:Xst:2677 - Node <rgb2ycbcr_converter/Y_delay/[0].delay_i/temp_8> of sequential type is unconnected in block <hdmi_main>.
+WARNING:Xst:2677 - Node <rgb2ycbcr_converter/Y_delay/[1].delay_i/temp_8> of sequential type is unconnected in block <hdmi_main>.
+INFO:Xst:2261 - The FF/Latch <dvi_rx1/dec_b/cbnd/rawdata_vld_rising> in Unit <hdmi_main> is equivalent to the following 2 FFs/Latches, which will be removed : <dvi_rx1/dec_g/cbnd/rawdata_vld_rising> <dvi_rx1/dec_r/cbnd/rawdata_vld_rising> 
+INFO:Xst:2261 - The FF/Latch <dvi_rx1/dec_b/des_0/enable> in Unit <hdmi_main> is equivalent to the following 2 FFs/Latches, which will be removed : <dvi_rx1/dec_g/des_0/enable> <dvi_rx1/dec_r/des_0/enable> 
+INFO:Xst:2261 - The FF/Latch <dvi_rx1/dec_b/des_0/counter_0> in Unit <hdmi_main> is equivalent to the following 2 FFs/Latches, which will be removed : <dvi_rx1/dec_g/des_0/counter_0> <dvi_rx1/dec_r/des_0/counter_0> 
+INFO:Xst:2261 - The FF/Latch <dvi_rx1/dec_b/des_0/counter_1> in Unit <hdmi_main> is equivalent to the following 2 FFs/Latches, which will be removed : <dvi_rx1/dec_g/des_0/counter_1> <dvi_rx1/dec_r/des_0/counter_1> 
+INFO:Xst:2261 - The FF/Latch <dvi_rx1/dec_b/des_0/counter_2> in Unit <hdmi_main> is equivalent to the following 2 FFs/Latches, which will be removed : <dvi_rx1/dec_g/des_0/counter_2> <dvi_rx1/dec_r/des_0/counter_2> 
+INFO:Xst:2261 - The FF/Latch <dvi_rx1/dec_b/des_0/counter_3> in Unit <hdmi_main> is equivalent to the following 2 FFs/Latches, which will be removed : <dvi_rx1/dec_g/des_0/counter_3> <dvi_rx1/dec_r/des_0/counter_3> 
+INFO:Xst:2261 - The FF/Latch <dvi_rx1/dec_b/des_0/counter_4> in Unit <hdmi_main> is equivalent to the following 2 FFs/Latches, which will be removed : <dvi_rx1/dec_g/des_0/counter_4> <dvi_rx1/dec_r/des_0/counter_4> 
+INFO:Xst:2261 - The FF/Latch <dvi_rx1/dec_b/des_0/counter_5> in Unit <hdmi_main> is equivalent to the following 2 FFs/Latches, which will be removed : <dvi_rx1/dec_g/des_0/counter_5> <dvi_rx1/dec_r/des_0/counter_5> 
+INFO:Xst:2261 - The FF/Latch <dvi_rx1/dec_b/des_0/counter_6> in Unit <hdmi_main> is equivalent to the following 2 FFs/Latches, which will be removed : <dvi_rx1/dec_g/des_0/counter_6> <dvi_rx1/dec_r/des_0/counter_6> 
+INFO:Xst:2261 - The FF/Latch <dvi_rx1/dec_b/des_0/counter_7> in Unit <hdmi_main> is equivalent to the following 2 FFs/Latches, which will be removed : <dvi_rx1/dec_g/des_0/counter_7> <dvi_rx1/dec_r/des_0/counter_7> 
+INFO:Xst:2261 - The FF/Latch <dvi_rx1/dec_b/des_0/counter_8> in Unit <hdmi_main> is equivalent to the following 2 FFs/Latches, which will be removed : <dvi_rx1/dec_g/des_0/counter_8> <dvi_rx1/dec_r/des_0/counter_8> 
+INFO:Xst:2261 - The FF/Latch <dvi_tx/encr/de_q> in Unit <hdmi_main> is equivalent to the following 2 FFs/Latches, which will be removed : <dvi_tx/encg/de_q> <dvi_tx/encb/de_q> 
+INFO:Xst:2261 - The FF/Latch <dvi_rx1/dec_b/cbnd/wa_0> in Unit <hdmi_main> is equivalent to the following 2 FFs/Latches, which will be removed : <dvi_rx1/dec_g/cbnd/wa_0> <dvi_rx1/dec_r/cbnd/wa_0> 
+INFO:Xst:2261 - The FF/Latch <dvi_rx1/dec_b/cbnd/wa_1> in Unit <hdmi_main> is equivalent to the following 2 FFs/Latches, which will be removed : <dvi_rx1/dec_g/cbnd/wa_1> <dvi_rx1/dec_r/cbnd/wa_1> 
+INFO:Xst:2261 - The FF/Latch <dvi_rx1/dec_b/cbnd/wa_2> in Unit <hdmi_main> is equivalent to the following 2 FFs/Latches, which will be removed : <dvi_rx1/dec_g/cbnd/wa_2> <dvi_rx1/dec_r/cbnd/wa_2> 
+INFO:Xst:2261 - The FF/Latch <dvi_rx1/dec_b/cbnd/wa_3> in Unit <hdmi_main> is equivalent to the following 2 FFs/Latches, which will be removed : <dvi_rx1/dec_g/cbnd/wa_3> <dvi_rx1/dec_r/cbnd/wa_3> 
+INFO:Xst:2261 - The FF/Latch <dvi_tx/encr/de_reg> in Unit <hdmi_main> is equivalent to the following 2 FFs/Latches, which will be removed : <dvi_tx/encg/de_reg> <dvi_tx/encb/de_reg> 
+INFO:Xst:2261 - The FF/Latch <dvi_rx1/dec_b/cbnd/rawdata_vld_q> in Unit <hdmi_main> is equivalent to the following 2 FFs/Latches, which will be removed : <dvi_rx1/dec_g/cbnd/rawdata_vld_q> <dvi_rx1/dec_r/cbnd/rawdata_vld_q> 
+INFO:Xst:2261 - The FF/Latch <dvi_rx1/dec_b/toggle> in Unit <hdmi_main> is equivalent to the following 2 FFs/Latches, which will be removed : <dvi_rx1/dec_g/toggle> <dvi_rx1/dec_r/toggle> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block hdmi_main, actual ratio is 4.
+
+Final Macro Processing ...
+
+Processing Unit <hdmi_main> :
+	Found 6-bit shift register for signal <rgb2ycbcr_converter/de/[5].delay_i/temp_0>.
+	Found 6-bit shift register for signal <rgb2ycbcr_converter/vsync/[5].delay_i/temp_0>.
+	Found 6-bit shift register for signal <rgb2ycbcr_converter/hsync/[5].delay_i/temp_0>.
+	Found 2-bit shift register for signal <rgb2ycbcr_converter/Y_delay/[1].delay_i/temp_7>.
+	Found 2-bit shift register for signal <rgb2ycbcr_converter/Y_delay/[1].delay_i/temp_6>.
+	Found 2-bit shift register for signal <rgb2ycbcr_converter/Y_delay/[1].delay_i/temp_5>.
+	Found 2-bit shift register for signal <rgb2ycbcr_converter/Y_delay/[1].delay_i/temp_4>.
+	Found 2-bit shift register for signal <rgb2ycbcr_converter/Y_delay/[1].delay_i/temp_3>.
+	Found 2-bit shift register for signal <rgb2ycbcr_converter/Y_delay/[1].delay_i/temp_2>.
+	Found 2-bit shift register for signal <rgb2ycbcr_converter/Y_delay/[1].delay_i/temp_1>.
+	Found 2-bit shift register for signal <rgb2ycbcr_converter/Y_delay/[1].delay_i/temp_0>.
+Unit <hdmi_main> processed.
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 527
+ Flip-Flops                                            : 527
+# Shift Registers                                      : 11
+ 2-bit shift register                                  : 8
+ 6-bit shift register                                  : 3
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : hdmi_main.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 1158
+#      GND                         : 18
+#      INV                         : 20
+#      LUT1                        : 73
+#      LUT2                        : 127
+#      LUT3                        : 99
+#      LUT4                        : 83
+#      LUT5                        : 145
+#      LUT6                        : 262
+#      MUXCY                       : 145
+#      MUXF7                       : 19
+#      VCC                         : 10
+#      XORCY                       : 157
+# FlipFlops/Latches                : 658
+#      FD                          : 253
+#      FDC                         : 68
+#      FDCE                        : 12
+#      FDE                         : 202
+#      FDP                         : 9
+#      FDPE                        : 3
+#      FDR                         : 69
+#      FDRE                        : 42
+# RAMS                             : 60
+#      RAM16X1D                    : 60
+# Shift Registers                  : 43
+#      SRLC16E                     : 43
+# Clock Buffers                    : 7
+#      BUFG                        : 6
+#      BUFGMUX                     : 1
+# IO Buffers                       : 23
+#      BUFIO2                      : 2
+#      IBUF                        : 5
+#      IBUFDS                      : 4
+#      OBUF                        : 8
+#      OBUFDS                      : 4
+# DSPs                             : 9
+#      DSP48A1                     : 9
+# Others                           : 24
+#      BUFPLL                      : 2
+#      IODELAY2                    : 6
+#      ISERDES2                    : 6
+#      OSERDES2                    : 8
+#      PLL_ADV                     : 2
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx45csg324-2 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             658  out of  54576     1%  
+ Number of Slice LUTs:                  972  out of  27288     3%  
+    Number used as Logic:               809  out of  27288     2%  
+    Number used as Memory:              163  out of   6408     2%  
+       Number used as RAM:              120
+       Number used as SRL:               43
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   1191
+   Number with an unused Flip Flop:     533  out of   1191    44%  
+   Number with an unused LUT:           219  out of   1191    18%  
+   Number of fully used LUT-FF pairs:   439  out of   1191    36%  
+   Number of unique control sets:        34
+
+IO Utilization: 
+ Number of IOs:                          29
+ Number of bonded IOBs:                  29  out of    218    13%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                7  out of     16    43%  
+ Number of DSP48A1s:                      9  out of     58    15%  
+ Number of PLL_ADVs:                      2  out of      4    50%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+dvi_rx1/PLL_ISERDES/CLKOUT1        | BUFGMUX                | 596   |
+dvi_rx1/PLL_ISERDES/CLKOUT2        | BUFG                   | 119   |
+PLL_OSERDES_0/CLKOUT2              | BUFG                   | 55    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 6.868ns (Maximum Frequency: 145.603MHz)
+   Minimum input arrival time before clock: 6.944ns
+   Maximum output required time after clock: 4.346ns
+   Maximum combinational path delay: 3.593ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'dvi_rx1/PLL_ISERDES/CLKOUT1'
+  Clock period: 6.868ns (frequency: 145.603MHz)
+  Total number of paths / destination ports: 11438 / 1162
+-------------------------------------------------------------------------
+Delay:               6.868ns (Levels of Logic = 5)
+  Source:            dvi_tx/encr/din_q_0 (FF)
+  Destination:       dvi_tx/encr/n0q_m_2 (FF)
+  Source Clock:      dvi_rx1/PLL_ISERDES/CLKOUT1 rising
+  Destination Clock: dvi_rx1/PLL_ISERDES/CLKOUT1 rising
+
+  Data Path: dvi_tx/encr/din_q_0 to dvi_tx/encr/n0q_m_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              19   0.525   1.261  dvi_tx/encr/din_q_0 (dvi_tx/encr/din_q_0)
+     LUT3:I2->O            7   0.254   0.909  dvi_tx/encr/Mmux_q_m<2>11 (dvi_tx/encr/q_m<2>)
+     MUXF7:S->O            5   0.185   1.271  dvi_tx/encr/Mmux_q_m<3>13 (dvi_tx/encr/q_m<3>)
+     LUT6:I1->O            5   0.254   0.841  dvi_tx/encr/ADDERTREE_INTERNAL_Madd9_lut<0>11 (dvi_tx/encr/ADDERTREE_INTERNAL_Madd9_lut<0>1)
+     LUT5:I4->O            1   0.254   0.790  dvi_tx/encr/Msub_PWR_39_o_BUS_0017_sub_29_OUT_xor<2>12 (dvi_tx/encr/Msub_PWR_39_o_BUS_0017_sub_29_OUT_xor<2>11)
+     LUT6:I4->O            1   0.250   0.000  dvi_tx/encr/Msub_PWR_39_o_BUS_0017_sub_29_OUT_xor<2>14 (dvi_tx/encr/PWR_39_o_BUS_0017_sub_29_OUT<2>)
+     FD:D                      0.074          dvi_tx/encr/n0q_m_2
+    ----------------------------------------
+    Total                      6.868ns (1.796ns logic, 5.072ns route)
+                                       (26.2% logic, 73.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'dvi_rx1/PLL_ISERDES/CLKOUT2'
+  Clock period: 5.497ns (frequency: 181.917MHz)
+  Total number of paths / destination ports: 1129 / 119
+-------------------------------------------------------------------------
+Delay:               5.497ns (Levels of Logic = 3)
+  Source:            dvi_rx1/dec_b/des_0/pdcounter_4 (FF)
+  Destination:       dvi_rx1/dec_b/des_0/pdcounter_0 (FF)
+  Source Clock:      dvi_rx1/PLL_ISERDES/CLKOUT2 rising
+  Destination Clock: dvi_rx1/PLL_ISERDES/CLKOUT2 rising
+
+  Data Path: dvi_rx1/dec_b/des_0/pdcounter_4 to dvi_rx1/dec_b/des_0/pdcounter_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             6   0.525   1.306  dvi_rx1/dec_b/des_0/pdcounter_4 (dvi_rx1/dec_b/des_0/pdcounter_4)
+     LUT5:I0->O            9   0.254   1.084  dvi_rx1/dec_b/des_0/pdcounter[4]_GND_10_o_equal_50_o<4>1 (dvi_rx1/dec_b/des_0/pdcounter[4]_GND_10_o_equal_50_o)
+     LUT6:I4->O            1   0.250   0.682  dvi_rx1/dec_b/des_0/_n0281_inv2 (dvi_rx1/dec_b/des_0/_n0281_inv2)
+     LUT6:I5->O            5   0.254   0.840  dvi_rx1/dec_b/des_0/_n0281_inv3 (dvi_rx1/dec_b/des_0/_n0281_inv)
+     FDCE:CE                   0.302          dvi_rx1/dec_b/des_0/pdcounter_0
+    ----------------------------------------
+    Total                      5.497ns (1.585ns logic, 3.912ns route)
+                                       (28.8% logic, 71.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'PLL_OSERDES_0/CLKOUT2'
+  Clock period: 3.355ns (frequency: 298.063MHz)
+  Total number of paths / destination ports: 219 / 93
+-------------------------------------------------------------------------
+Delay:               3.355ns (Levels of Logic = 1)
+  Source:            dvi_tx/pixel2x/sync_gen (FF)
+  Destination:       dvi_tx/pixel2x/sync_gen (FF)
+  Source Clock:      PLL_OSERDES_0/CLKOUT2 rising
+  Destination Clock: PLL_OSERDES_0/CLKOUT2 rising
+
+  Data Path: dvi_tx/pixel2x/sync_gen to dvi_tx/pixel2x/sync_gen
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             50   0.525   1.820  dvi_tx/pixel2x/sync_gen (dvi_tx/pixel2x/sync)
+     INV:I->O              1   0.255   0.681  dvi_tx/pixel2x/sync_INV_65_o1_INV_0 (dvi_tx/pixel2x/sync_INV_65_o)
+     FDR:D                     0.074          dvi_tx/pixel2x/sync_gen
+    ----------------------------------------
+    Total                      3.355ns (0.854ns logic, 2.501ns route)
+                                       (25.5% logic, 74.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'dvi_rx1/PLL_ISERDES/CLKOUT2'
+  Total number of paths / destination ports: 109 / 104
+-------------------------------------------------------------------------
+Offset:              4.990ns (Levels of Logic = 3)
+  Source:            dvi_rx1/ioclk_buf:LOCK (PAD)
+  Destination:       dvi_rx1/dec_b/des_0/rst_data (FF)
+  Destination Clock: dvi_rx1/PLL_ISERDES/CLKOUT2 rising
+
+  Data Path: dvi_rx1/ioclk_buf:LOCK to dvi_rx1/dec_b/des_0/rst_data
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    BUFPLL:LOCK            1   0.000   0.681  dvi_rx1/ioclk_buf (dvi_rx1/bufpll_lock)
+     INV:I->O            107   0.255   2.339  dvi_rx1/reset1_INV_0 (rx_reset)
+     LUT6:I4->O            1   0.250   1.137  dvi_rx1/dec_b/des_0/rst_data_rstpot (dvi_rx1/dec_b/des_0/rst_data_rstpot)
+     LUT6:I0->O            1   0.254   0.000  dvi_rx1/dec_b/des_0/rst_data_rstpot1 (dvi_rx1/dec_b/des_0/rst_data_rstpot1)
+     FD:D                      0.074          dvi_rx1/dec_b/des_0/rst_data
+    ----------------------------------------
+    Total                      4.990ns (0.833ns logic, 4.157ns route)
+                                       (16.7% logic, 83.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'dvi_rx1/PLL_ISERDES/CLKOUT1'
+  Total number of paths / destination ports: 765 / 84
+-------------------------------------------------------------------------
+Offset:              6.944ns (Levels of Logic = 5)
+  Source:            SW<0> (PAD)
+  Destination:       dvi_tx/encb/n1d_3 (FF)
+  Destination Clock: dvi_rx1/PLL_ISERDES/CLKOUT1 rising
+
+  Data Path: SW<0> to dvi_tx/encb/n1d_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            30   1.328   1.917  SW_0_IBUF (SW_0_IBUF)
+     LUT5:I0->O            4   0.254   1.032  Mmux_tx_blue11 (tx_blue<0>)
+     LUT3:I0->O            2   0.235   0.726  dvi_tx/encb/ADDERTREE_INTERNAL_Madd3_lut<0>1 (dvi_tx/encb/ADDERTREE_INTERNAL_Madd3_lut<0>)
+     LUT6:I5->O            3   0.254   0.874  dvi_tx/encb/ADDERTREE_INTERNAL_Madd4_cy<0>11 (dvi_tx/encb/ADDERTREE_INTERNAL_Madd4_cy<0>)
+     LUT6:I4->O            1   0.250   0.000  dvi_tx/encb/ADDERTREE_INTERNAL_Madd4_xor<0>21 (dvi_tx/encb/ADDERTREE_INTERNAL_Madd_14)
+     FD:D                      0.074          dvi_tx/encb/n1d_1
+    ----------------------------------------
+    Total                      6.944ns (2.395ns logic, 4.549ns route)
+                                       (34.5% logic, 65.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'dvi_rx1/PLL_ISERDES/CLKOUT1'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              4.346ns (Levels of Logic = 1)
+  Source:            dvi_rx1/dec_r/cbnd/iamrdy (FF)
+  Destination:       LED<7> (PAD)
+  Source Clock:      dvi_rx1/PLL_ISERDES/CLKOUT1 rising
+
+  Data Path: dvi_rx1/dec_r/cbnd/iamrdy to LED<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              7   0.525   0.909  dvi_rx1/dec_r/cbnd/iamrdy (dvi_rx1/dec_r/cbnd/iamrdy)
+     OBUF:I->O                 2.912          LED_7_OBUF (LED<7>)
+    ----------------------------------------
+    Total                      4.346ns (3.437ns logic, 0.909ns route)
+                                       (79.1% logic, 20.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'dvi_rx1/PLL_ISERDES/CLKOUT2'
+  Total number of paths / destination ports: 30 / 30
+-------------------------------------------------------------------------
+Offset:              1.290ns (Levels of Logic = 0)
+  Source:            dvi_rx1/dec_b/des_0/inc_data_int (FF)
+  Destination:       dvi_rx1/dec_b/des_0/iodelay_m:INC (PAD)
+  Source Clock:      dvi_rx1/PLL_ISERDES/CLKOUT2 rising
+
+  Data Path: dvi_rx1/dec_b/des_0/inc_data_int to dvi_rx1/dec_b/des_0/iodelay_m:INC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               3   0.525   0.765  dvi_rx1/dec_b/des_0/inc_data_int (dvi_rx1/dec_b/des_0/inc_data_int)
+    IODELAY2:INC               0.000          dvi_rx1/dec_b/des_0/iodelay_s
+    ----------------------------------------
+    Total                      1.290ns (0.525ns logic, 0.765ns route)
+                                       (40.7% logic, 59.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'PLL_OSERDES_0/CLKOUT2'
+  Total number of paths / destination ports: 20 / 20
+-------------------------------------------------------------------------
+Offset:              1.365ns (Levels of Logic = 0)
+  Source:            dvi_tx/tmdsclkint_0 (FF)
+  Destination:       dvi_tx/clkout/oserdes_m:D1 (PAD)
+  Source Clock:      PLL_OSERDES_0/CLKOUT2 rising
+
+  Data Path: dvi_tx/tmdsclkint_0 to dvi_tx/clkout/oserdes_m:D1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               5   0.525   0.840  dvi_tx/tmdsclkint_0 (dvi_tx/tmdsclkint_0)
+    OSERDES2:D1                0.000          dvi_tx/clkout/oserdes_s
+    ----------------------------------------
+    Total                      1.365ns (0.525ns logic, 0.840ns route)
+                                       (38.5% logic, 61.5% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 91 / 84
+-------------------------------------------------------------------------
+Delay:               3.593ns (Levels of Logic = 1)
+  Source:            dvi_tx/clkout/oserdes_m:OQ (PAD)
+  Destination:       TX0_TMDS<3> (PAD)
+
+  Data Path: dvi_tx/clkout/oserdes_m:OQ to TX0_TMDS<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    OSERDES2:OQ            1   0.000   0.681  dvi_tx/clkout/oserdes_m (dvi_tx/tmdsclk)
+     OBUFDS:I->O               2.912          dvi_tx/TMDS3 (TX0_TMDS<3>)
+    ----------------------------------------
+    Total                      3.593ns (2.912ns logic, 0.681ns route)
+                                       (81.0% logic, 19.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock PLL_OSERDES_0/CLKOUT2
+---------------------------+---------+---------+---------+---------+
+                           | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock               |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------------------+---------+---------+---------+---------+
+PLL_OSERDES_0/CLKOUT2      |    3.355|         |         |         |
+dvi_rx1/PLL_ISERDES/CLKOUT1|    1.937|         |         |         |
+---------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock dvi_rx1/PLL_ISERDES/CLKOUT1
+---------------------------+---------+---------+---------+---------+
+                           | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock               |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------------------+---------+---------+---------+---------+
+PLL_OSERDES_0/CLKOUT2      |    2.077|         |         |         |
+dvi_rx1/PLL_ISERDES/CLKOUT1|    6.868|         |         |         |
+dvi_rx1/PLL_ISERDES/CLKOUT2|    3.089|         |         |         |
+---------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock dvi_rx1/PLL_ISERDES/CLKOUT2
+---------------------------+---------+---------+---------+---------+
+                           | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock               |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------------------+---------+---------+---------+---------+
+dvi_rx1/PLL_ISERDES/CLKOUT1|    1.619|         |         |         |
+dvi_rx1/PLL_ISERDES/CLKOUT2|    5.497|         |         |         |
+---------------------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 11.22 secs
+ 
+--> 
+
+Total memory usage is 266092 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  128 (   0 filtered)
+Number of infos    :   49 (   0 filtered)
+

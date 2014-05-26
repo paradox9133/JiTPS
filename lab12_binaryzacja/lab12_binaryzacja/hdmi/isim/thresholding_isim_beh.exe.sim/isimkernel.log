@@ -1,0 +1,28 @@
+Command line:
+   thresholding_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49380
+
+Mon May 26 19:02:52 2014
+
+
+ Elaboration Time: 0.0312 sec
+
+ Current Memory Usage: 826.446 Meg
+
+ Total Signals          : 25
+ Total Nets             : 60
+ Total Signal Drivers   : 11
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 12
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 140
+
+ Total Simulation Time: 0.0624 sec
+
+ Current Memory Usage: 826.446 Meg
+
+Mon May 26 19:03:11 2014
+

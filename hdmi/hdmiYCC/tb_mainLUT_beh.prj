@@ -1,0 +1,4 @@
+verilog work "ipcore_dir/lut.v"
+verilog work "mainLUT.v"
+verilog work "tb_mainLUT.v"
+verilog work "C:/Xilinx/14.6/ISE_DS/ISE//verilog/src/glbl.v"

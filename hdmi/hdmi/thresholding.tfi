@@ -1,0 +1,24 @@
+
+
+
+// Instantiate the module
+thresholding instance_name (
+    .clk(clk), 
+    .cb(cb), 
+    .cr(cr), 
+    .Ta(Ta), 
+    .Tb(Tb), 
+    .Tc(Tc), 
+    .Td(Td), 
+    .de_in(de_in), 
+    .de_out(de_out), 
+    .hdmi_hs_in(hdmi_hs_in), 
+    .hdmi_vs_in(hdmi_vs_in), 
+    .hdmi_hs_out(hdmi_hs_out), 
+    .hdmi_vs_out(hdmi_vs_out), 
+    .r_out(r_out), 
+    .g_out(g_out), 
+    .b_out(b_out)
+    );
+
+

@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj hdmi -o D:/JiTPS/AdamMichna/hdmi/hdmi/thresholding.tfi -lib work D:/JiTPS/AdamMichna/hdmi/hdmi//thresholding.v -module thresholding -template C:/Xilinx/14.6/ISE_DS/ISE//data/tfi.tft -deleteonerror 

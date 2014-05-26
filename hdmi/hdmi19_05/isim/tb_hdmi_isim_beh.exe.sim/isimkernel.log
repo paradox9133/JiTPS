@@ -1,0 +1,28 @@
+Command line:
+   tb_hdmi_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49533
+
+Mon May 12 19:44:04 2014
+
+
+ Elaboration Time: 0.062401 sec
+
+ Current Memory Usage: 859.795 Meg
+
+ Total Signals          : 4471
+ Total Nets             : 5628
+ Total Signal Drivers   : 1304
+ Total Blocks           : 597
+ Total Primitive Blocks : 538
+ Total Processes        : 2449
+ Total Traceable Variables  : 1365
+ Total Scalar Nets and Variables : 26914
+
+ Total Simulation Time: 1.23241 sec
+
+ Current Memory Usage: 859.828 Meg
+
+Mon May 12 19:47:26 2014
+

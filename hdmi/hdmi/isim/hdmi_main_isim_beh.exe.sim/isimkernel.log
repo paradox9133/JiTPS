@@ -1,0 +1,28 @@
+Command line:
+   hdmi_main_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49494
+
+Mon May 12 19:32:34 2014
+
+
+ Elaboration Time: 0.140401 sec
+
+ Current Memory Usage: 860.701 Meg
+
+ Total Signals          : 7587
+ Total Nets             : 8349
+ Total Signal Drivers   : 3296
+ Total Blocks           : 809
+ Total Primitive Blocks : 700
+ Total Processes        : 5465
+ Total Traceable Variables  : 4159
+ Total Scalar Nets and Variables : 63801
+
+ Total Simulation Time: 0.171601 sec
+
+ Current Memory Usage: 860.701 Meg
+
+Mon May 12 19:32:43 2014
+

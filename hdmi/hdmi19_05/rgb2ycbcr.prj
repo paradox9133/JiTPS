@@ -1,0 +1,5 @@
+verilog work "delay.v"
+verilog work "ipcore_dir/sum.v"
+verilog work "ipcore_dir/mull.v"
+verilog work "delay_line.v"
+verilog work "rgb2ycbcr.v"

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/JiTPS/AdamMichna/hdmi/hdmi/tb_hdmi_isim_beh.exe" -prj "D:/JiTPS/AdamMichna/hdmi/hdmi/tb_hdmi_beh.prj" "work.tb_hdmi" "work.glbl" 

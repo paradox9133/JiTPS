@@ -1,0 +1,7 @@
+verilog work "ipcore_dir/mull.v"
+verilog work "ipcore_dir/sum.v"
+verilog work "delay.v"
+verilog work "delay_line.v"
+verilog work "rgb2ycbcr.v"
+verilog work "tb_rgb2ycbcr.v"
+verilog work "H:/IseDesignSuite/14.7/ISE_DS/ISE//verilog/src/glbl.v"

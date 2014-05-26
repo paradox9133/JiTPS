@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "D:/JiTPS/AdamMichna/lab12_binaryzacja/lab12_binaryzacja/hdmi/tb_bin_isim_beh.exe" -prj "D:/JiTPS/AdamMichna/lab12_binaryzacja/lab12_binaryzacja/hdmi/tb_bin_beh.prj" "work.tb_bin" "work.glbl" 

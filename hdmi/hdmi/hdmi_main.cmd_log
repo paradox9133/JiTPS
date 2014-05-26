@@ -1,0 +1,73 @@
+xst -intstyle ise -ifn "D:/JiTPS/KoreckiTomasz/lab6/hdmi/hdmi_main.xst" -ofn "D:/JiTPS/KoreckiTomasz/lab6/hdmi/hdmi_main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc src/AtlysGeneral.ucf -p xc6slx45-csg324-2 hdmi_main.ngc hdmi_main.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o hdmi_main_map.ncd hdmi_main.ngd hdmi_main.pcf 
+par -w -intstyle ise -ol high -mt off hdmi_main_map.ncd hdmi_main.ncd hdmi_main.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml hdmi_main.twx hdmi_main.ncd -o hdmi_main.twr hdmi_main.pcf 
+bitgen -intstyle ise -f hdmi_main.ut hdmi_main.ncd 
+xst -intstyle ise -ifn "D:/JiTPS/KoreckiTomasz/lab6/hdmi/hdmi_main.xst" -ofn "D:/JiTPS/KoreckiTomasz/lab6/hdmi/hdmi_main.syr" 
+xst -intstyle ise -ifn "D:/JiTPS/KoreckiTomasz/lab6/hdmi/hdmi_main.xst" -ofn "D:/JiTPS/KoreckiTomasz/lab6/hdmi/hdmi_main.syr" 
+xst -intstyle ise -ifn "D:/JiTPS/KoreckiTomasz/lab6/hdmi/hdmi_main.xst" -ofn "D:/JiTPS/KoreckiTomasz/lab6/hdmi/hdmi_main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/AtlysGeneral.ucf -p xc6slx45-csg324-2 hdmi_main.ngc hdmi_main.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o hdmi_main_map.ncd hdmi_main.ngd hdmi_main.pcf 
+par -w -intstyle ise -ol high -mt off hdmi_main_map.ncd hdmi_main.ncd hdmi_main.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml hdmi_main.twx hdmi_main.ncd -o hdmi_main.twr hdmi_main.pcf 
+bitgen -intstyle ise -f hdmi_main.ut hdmi_main.ncd 
+xst -intstyle ise -ifn "D:/JiTPS/KoreckiTomasz/lab6/hdmi/hdmi_main.xst" -ofn "D:/JiTPS/KoreckiTomasz/lab6/hdmi/hdmi_main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/AtlysGeneral.ucf -p xc6slx45-csg324-2 hdmi_main.ngc hdmi_main.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o hdmi_main_map.ncd hdmi_main.ngd hdmi_main.pcf 
+par -w -intstyle ise -ol high -mt off hdmi_main_map.ncd hdmi_main.ncd hdmi_main.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml hdmi_main.twx hdmi_main.ncd -o hdmi_main.twr hdmi_main.pcf 
+bitgen -intstyle ise -f hdmi_main.ut hdmi_main.ncd 
+xst -intstyle ise -ifn "D:/JiTPS/KoreckiTomasz/lab6/hdmi/hdmi_main.xst" -ofn "D:/JiTPS/KoreckiTomasz/lab6/hdmi/hdmi_main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/AtlysGeneral.ucf -p xc6slx45-csg324-2 hdmi_main.ngc hdmi_main.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o hdmi_main_map.ncd hdmi_main.ngd hdmi_main.pcf 
+par -w -intstyle ise -ol high -mt off hdmi_main_map.ncd hdmi_main.ncd hdmi_main.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml hdmi_main.twx hdmi_main.ncd -o hdmi_main.twr hdmi_main.pcf 
+bitgen -intstyle ise -f hdmi_main.ut hdmi_main.ncd 
+xst -intstyle ise -ifn "D:/JiTPS/KoreckiTomasz/lab6/hdmi/hdmi_main.xst" -ofn "D:/JiTPS/KoreckiTomasz/lab6/hdmi/hdmi_main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/AtlysGeneral.ucf -p xc6slx45-csg324-2 hdmi_main.ngc hdmi_main.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o hdmi_main_map.ncd hdmi_main.ngd hdmi_main.pcf 
+par -w -intstyle ise -ol high -mt off hdmi_main_map.ncd hdmi_main.ncd hdmi_main.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml hdmi_main.twx hdmi_main.ncd -o hdmi_main.twr hdmi_main.pcf 
+bitgen -intstyle ise -f hdmi_main.ut hdmi_main.ncd 
+xst -intstyle ise -ifn "D:/JiTPS/KoreckiTomasz/lab8/hdmi/hdmi_main.xst" -ofn "D:/JiTPS/KoreckiTomasz/lab8/hdmi/hdmi_main.syr" 
+xst -intstyle ise -ifn "D:/JiTPS/KoreckiTomasz/lab8/hdmi/hdmi_main.xst" -ofn "D:/JiTPS/KoreckiTomasz/lab8/hdmi/hdmi_main.syr" 
+xst -intstyle ise -ifn "D:/JiTPS/KoreckiTomasz/lab8/hdmi/hdmi_main.xst" -ofn "D:/JiTPS/KoreckiTomasz/lab8/hdmi/hdmi_main.syr" 
+xst -intstyle ise -ifn "D:/JiTPS/KoreckiTomasz/lab8/hdmi/hdmi_main.xst" -ofn "D:/JiTPS/KoreckiTomasz/lab8/hdmi/hdmi_main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/AtlysGeneral.ucf -p xc6slx45-csg324-2 hdmi_main.ngc hdmi_main.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o hdmi_main_map.ncd hdmi_main.ngd hdmi_main.pcf 
+par -w -intstyle ise -ol high -mt off hdmi_main_map.ncd hdmi_main.ncd hdmi_main.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml hdmi_main.twx hdmi_main.ncd -o hdmi_main.twr hdmi_main.pcf 
+bitgen -intstyle ise -f hdmi_main.ut hdmi_main.ncd 
+xst -intstyle ise -ifn "D:/JiTPS/KoreckiTomasz/lab8/hdmi/hdmi_main.xst" -ofn "D:/JiTPS/KoreckiTomasz/lab8/hdmi/hdmi_main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/AtlysGeneral.ucf -p xc6slx45-csg324-2 hdmi_main.ngc hdmi_main.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o hdmi_main_map.ncd hdmi_main.ngd hdmi_main.pcf 
+par -w -intstyle ise -ol high -mt off hdmi_main_map.ncd hdmi_main.ncd hdmi_main.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml hdmi_main.twx hdmi_main.ncd -o hdmi_main.twr hdmi_main.pcf 
+bitgen -intstyle ise -f hdmi_main.ut hdmi_main.ncd 
+xst -intstyle ise -ifn "D:/JiTPS/AdamMichna/hdmi/hdmi/hdmi_main.xst" -ofn "D:/JiTPS/AdamMichna/hdmi/hdmi/hdmi_main.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim hdmi_main.ngc hdmi_main_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/AtlysGeneral.ucf -p xc6slx45-csg324-2 hdmi_main.ngc hdmi_main.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o hdmi_main_map.ncd hdmi_main.ngd hdmi_main.pcf 
+par -w -intstyle ise -ol high -mt off hdmi_main_map.ncd hdmi_main.ncd hdmi_main.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml hdmi_main.twx hdmi_main.ncd -o hdmi_main.twr hdmi_main.pcf 
+bitgen -intstyle ise -f hdmi_main.ut hdmi_main.ncd 
+xst -intstyle ise -ifn "D:/JiTPS/AdamMichna/hdmi/hdmi/hdmi_main.xst" -ofn "D:/JiTPS/AdamMichna/hdmi/hdmi/hdmi_main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/AtlysGeneral.ucf -p xc6slx45-csg324-2 hdmi_main.ngc hdmi_main.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o hdmi_main_map.ncd hdmi_main.ngd hdmi_main.pcf 
+par -w -intstyle ise -ol high -mt off hdmi_main_map.ncd hdmi_main.ncd hdmi_main.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml hdmi_main.twx hdmi_main.ncd -o hdmi_main.twr hdmi_main.pcf 
+bitgen -intstyle ise -f hdmi_main.ut hdmi_main.ncd 
+xst -intstyle ise -ifn "D:/JiTPS/AdamMichna/hdmi/hdmi/hdmi_main.xst" -ofn "D:/JiTPS/AdamMichna/hdmi/hdmi/hdmi_main.syr" 
+xst -intstyle ise -ifn "D:/JiTPS/AdamMichna/hdmi/hdmi/hdmi_main.xst" -ofn "D:/JiTPS/AdamMichna/hdmi/hdmi/hdmi_main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/AtlysGeneral.ucf -p xc6slx45-csg324-2 hdmi_main.ngc hdmi_main.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o hdmi_main_map.ncd hdmi_main.ngd hdmi_main.pcf 
+par -w -intstyle ise -ol high -mt off hdmi_main_map.ncd hdmi_main.ncd hdmi_main.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml hdmi_main.twx hdmi_main.ncd -o hdmi_main.twr hdmi_main.pcf 
+bitgen -intstyle ise -f hdmi_main.ut hdmi_main.ncd 
+xst -intstyle ise -ifn "D:/JiTPS/AdamMichna/hdmi/hdmi/hdmi_main.xst" -ofn "D:/JiTPS/AdamMichna/hdmi/hdmi/hdmi_main.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc src/AtlysGeneral.ucf -p xc6slx45-csg324-2 hdmi_main.ngc hdmi_main.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o hdmi_main_map.ncd hdmi_main.ngd hdmi_main.pcf 
+par -w -intstyle ise -ol high -mt off hdmi_main_map.ncd hdmi_main.ncd hdmi_main.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml hdmi_main.twx hdmi_main.ncd -o hdmi_main.twr hdmi_main.pcf 
+bitgen -intstyle ise -f hdmi_main.ut hdmi_main.ncd 
