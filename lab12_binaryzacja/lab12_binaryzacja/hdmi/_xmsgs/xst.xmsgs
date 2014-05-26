@@ -86,6 +86,15 @@
 <msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 185: Assignment to <arg fmt="%s" index="1">rx_red_vld</arg> ignored, since the identifier is never used
 </msg>
 
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 186: Assignment to <arg fmt="%s" index="1">rx_blue_rdy</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 187: Assignment to <arg fmt="%s" index="1">rx_green_rdy</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 188: Assignment to <arg fmt="%s" index="1">rx_red_rdy</arg> ignored, since the identifier is never used
+</msg>
+
 <msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 190: Assignment to <arg fmt="%s" index="1">rx_psalgnerr</arg> ignored, since the identifier is never used
 </msg>
 
@@ -153,6 +162,15 @@
 </msg>
 
 <msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v</arg>&quot; line <arg fmt="%s" index="2">153</arg>: Output port &lt;<arg fmt="%s" index="3">red_vld</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dvi_rx1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v</arg>&quot; line <arg fmt="%s" index="2">153</arg>: Output port &lt;<arg fmt="%s" index="3">blue_rdy</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dvi_rx1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v</arg>&quot; line <arg fmt="%s" index="2">153</arg>: Output port &lt;<arg fmt="%s" index="3">green_rdy</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dvi_rx1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v</arg>&quot; line <arg fmt="%s" index="2">153</arg>: Output port &lt;<arg fmt="%s" index="3">red_rdy</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dvi_rx1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
 <msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v</arg>&quot; line <arg fmt="%s" index="2">153</arg>: Output port &lt;<arg fmt="%s" index="3">psalgnerr</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dvi_rx1</arg>&gt; is unconnected or connected to loadless signal.

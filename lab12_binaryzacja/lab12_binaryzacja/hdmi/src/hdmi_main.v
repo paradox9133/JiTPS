@@ -385,7 +385,6 @@ lut B_lut (
   //////////////////////////////////////
   // Status LED
   //////////////////////////////////////
-  assign LED = {rx_red_rdy, rx_green_rdy, rx_blue_rdy, rx_red_rdy, rx_green_rdy, rx_blue_rdy,
-                rx_de, rx_de};
+  assign LED = SW;
 
 endmodule

@@ -7,6 +7,7 @@
    <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/dvi_decoder D:|JiTPS|AdamMichna|lab12_binaryzacja|lab12_binaryzacja|hdmi|src|rx|dvi_decoder.v</ClosedNode>
          <ClosedNode>/dvi_decoder D:|JiTPS|KoreckiTomasz|lab6|hdmi|src|rx|dvi_decoder.v/dec_b - decode</ClosedNode>
          <ClosedNode>/dvi_decoder D:|JiTPS|KoreckiTomasz|lab6|hdmi|src|rx|dvi_decoder.v/dec_g - decode</ClosedNode>
          <ClosedNode>/dvi_decoder D:|JiTPS|KoreckiTomasz|lab6|hdmi|src|rx|dvi_decoder.v/dec_r - decode</ClosedNode>
@@ -23,6 +24,9 @@
          <ClosedNode>/hdmi_main D:|JiTPS|AdamMichna|hdmi|hdmi|src|hdmi_main.v/dvi_rx1 - dvi_decoder</ClosedNode>
          <ClosedNode>/hdmi_main D:|JiTPS|AdamMichna|hdmi|hdmi|src|hdmi_main.v/dvi_tx - dvi_encoder_top</ClosedNode>
          <ClosedNode>/hdmi_main D:|JiTPS|AdamMichna|hdmi|hdmi|src|hdmi_main.v/rgb2ycbcr_converter - rgb2ycbcr</ClosedNode>
+         <ClosedNode>/hdmi_main D:|JiTPS|AdamMichna|lab12_binaryzacja|lab12_binaryzacja|hdmi|src|hdmi_main.v/dvi_rx1 - dvi_decoder_nok</ClosedNode>
+         <ClosedNode>/hdmi_main D:|JiTPS|AdamMichna|lab12_binaryzacja|lab12_binaryzacja|hdmi|src|hdmi_main.v/dvi_tx - dvi_encoder_top</ClosedNode>
+         <ClosedNode>/hdmi_main D:|JiTPS|AdamMichna|lab12_binaryzacja|lab12_binaryzacja|hdmi|src|hdmi_main.v/rgb2ycbcr_converter - rgb2ycbcr</ClosedNode>
          <ClosedNode>/hdmi_main D:|JiTPS|KoreckiTomasz|lab6|hdmi|src|hdmi_main.v/dvi_rx1 - dvi_decoder</ClosedNode>
          <ClosedNode>/hdmi_main D:|JiTPS|KoreckiTomasz|lab6|hdmi|src|hdmi_main.v/dvi_rx1 - dvi_decoder_nok</ClosedNode>
          <ClosedNode>/hdmi_main D:|JiTPS|KoreckiTomasz|lab6|hdmi|src|hdmi_main.v/dvi_tx - dvi_encoder_top</ClosedNode>
@@ -32,6 +36,7 @@
          <ClosedNode>/hdmi_main D:|Study|Semestr VI|FPGA|lab8|hdmi|src|hdmi_main.v</ClosedNode>
          <ClosedNode>/hdmi_main D:|___NoweFPGA|pipeline_ise|test|hdmi|src|hdmi_main.v</ClosedNode>
          <ClosedNode>/mainLUT D:|JiTPS|AdamMichna|hdmi|hdmi|mainLUT.v</ClosedNode>
+         <ClosedNode>/mainLUT D:|JiTPS|AdamMichna|lab12_binaryzacja|lab12_binaryzacja|hdmi|mainLUT.v</ClosedNode>
          <ClosedNode>/mainLUT D:|JiTPS|KoreckiTomasz|lab8|hdmi|mainLUT.v</ClosedNode>
          <ClosedNode>/rgb2ycbcr D:|Study|Semestr VI|FPGA|lab8|hdmi|rgb2ycbcr.v/Y_delay - delay_line</ClosedNode>
          <ClosedNode>/rgb2ycbcr D:|Study|Semestr VI|FPGA|lab8|hdmi|rgb2ycbcr.v/de - delay_line</ClosedNode>
@@ -41,34 +46,34 @@
          <ClosedNode>/tb_hdmi D:|JiTPS|AdamMichna|hdmi|hdmi|tb_src|tb_hdmi.v/rgb2ycbcr_converter - rgb2ycbcr/de - delay_line</ClosedNode>
          <ClosedNode>/tb_hdmi D:|JiTPS|AdamMichna|hdmi|hdmi|tb_src|tb_hdmi.v/rgb2ycbcr_converter - rgb2ycbcr/hsync - delay_line</ClosedNode>
          <ClosedNode>/tb_hdmi D:|JiTPS|AdamMichna|hdmi|hdmi|tb_src|tb_hdmi.v/rgb2ycbcr_converter - rgb2ycbcr/vsync - delay_line</ClosedNode>
+         <ClosedNode>/tb_hdmi D:|JiTPS|AdamMichna|lab12_binaryzacja|lab12_binaryzacja|hdmi|tb_src|tb_hdmi.v</ClosedNode>
          <ClosedNode>/tb_hdmi D:|JiTPS|KoreckiTomasz|lab8|hdmi|tb_src|tb_hdmi.v</ClosedNode>
          <ClosedNode>/tb_hdmi D:|JiTPS|KoreckiTomasz|lab8|hdmi|tb_src|tb_hdmi.v/rgb2ycbcr_converter - rgb2ycbcr/Y_delay - delay_line</ClosedNode>
          <ClosedNode>/tb_hdmi D:|___NoweFPGA|pipeline_ise|test|hdmi|tb_src|tb_hdmi.v</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>hdmi_main (F:/Studia/JPS/lab12_binaryzacja/hdmi/src/hdmi_main.v)</SelectedItem>
+         <SelectedItem>hdmi_main (D:/JiTPS/AdamMichna/lab12_binaryzacja/lab12_binaryzacja/hdmi/src/hdmi_main.v)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >13</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001e3000000020000000000000000000000000200000064ffffffff000000810000000300000002000001e30000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000189000000020000000000000000000000000200000064ffffffff000000810000000300000002000001890000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>hdmi_main (F:/Studia/JPS/lab12_binaryzacja/hdmi/src/hdmi_main.v)</CurrentItem>
+      <CurrentItem>hdmi_main (D:/JiTPS/AdamMichna/lab12_binaryzacja/lab12_binaryzacja/hdmi/src/hdmi_main.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
-         <ClosedNode>Configure Target Device</ClosedNode>
          <ClosedNode>Design Utilities</ClosedNode>
          <ClosedNode>Implement Design</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem>Generate Target PROM/ACE File</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >7</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000e7000000010000000100000000000000000000000064ffffffff000000810000000000000001000000e70000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000121000000010000000100000000000000000000000064ffffffff000000810000000000000001000001210000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem>Generate Target PROM/ACE File</CurrentItem>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>
@@ -89,15 +94,16 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000132000000010001000100000000000000000000000064ffffffff000000810000000000000001000001320000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>work</CurrentItem>
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000017b0000017c01000000050100000002</SourceProcessView>
-   <CurrentView>Behavioral Simulation</CurrentView>
+   <CurrentView>Implementation</CurrentView>
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/dvi_decoder D:|JiTPS|AdamMichna|lab12_binaryzacja|lab12_binaryzacja|hdmi|src|rx|dvi_decoder.v</ClosedNode>
          <ClosedNode>/dvi_decoder F:|Studia|JPS|lab12_binaryzacja|hdmi|src|rx|dvi_decoder.v</ClosedNode>
          <ClosedNode>/dvi_decoder_nok D:|JiTPS|AdamMichna|hdmi|hdmi|src|rx_nok|dvi_decoder_nok.v</ClosedNode>
          <ClosedNode>/dvi_decoder_nok D:|JiTPS|KoreckiTomasz|lab6|hdmi|src|rx_nok|dvi_decoder_nok.v</ClosedNode>
@@ -106,6 +112,9 @@
          <ClosedNode>/dvi_decoder_nok D:|JiTPS|KoreckiTomasz|lab8|hdmi|src|rx_nok|dvi_decoder_nok.v/dec_r - decode_nok</ClosedNode>
          <ClosedNode>/dvi_decoder_nok D:|Study|Semestr VI|FPGA|lab8|hdmi|src|rx_nok|dvi_decoder_nok.v</ClosedNode>
          <ClosedNode>/hdmi_main D:|JiTPS|AdamMichna|hdmi|hdmi|src|hdmi_main.v</ClosedNode>
+         <ClosedNode>/hdmi_main D:|JiTPS|AdamMichna|lab12_binaryzacja|lab12_binaryzacja|hdmi|src|hdmi_main.v/dvi_rx1 - dvi_decoder_nok</ClosedNode>
+         <ClosedNode>/hdmi_main D:|JiTPS|AdamMichna|lab12_binaryzacja|lab12_binaryzacja|hdmi|src|hdmi_main.v/dvi_tx - dvi_encoder_top</ClosedNode>
+         <ClosedNode>/hdmi_main D:|JiTPS|AdamMichna|lab12_binaryzacja|lab12_binaryzacja|hdmi|src|hdmi_main.v/rgb2ycbcr_converter - rgb2ycbcr</ClosedNode>
          <ClosedNode>/hdmi_main D:|JiTPS|KoreckiTomasz|lab6|hdmi|src|hdmi_main.v</ClosedNode>
          <ClosedNode>/hdmi_main D:|JiTPS|KoreckiTomasz|lab6|hdmi|src|hdmi_main.v/dvi_rx1 - dvi_decoder</ClosedNode>
          <ClosedNode>/hdmi_main D:|JiTPS|KoreckiTomasz|lab6|hdmi|src|hdmi_main.v/dvi_tx - dvi_encoder_top</ClosedNode>
@@ -121,8 +130,10 @@
          <ClosedNode>/hdmi_main F:|Studia|JPS|lab12_binaryzacja|hdmi|src|hdmi_main.v/dvi_rx1 - dvi_decoder_nok</ClosedNode>
          <ClosedNode>/hdmi_main F:|Studia|JPS|lab12_binaryzacja|hdmi|src|hdmi_main.v/dvi_tx - dvi_encoder_top</ClosedNode>
          <ClosedNode>/hdmi_main F:|Studia|JPS|lab12_binaryzacja|hdmi|src|hdmi_main.v/rgb2ycbcr_converter - rgb2ycbcr</ClosedNode>
+         <ClosedNode>/tb_bin D:|JiTPS|AdamMichna|lab12_binaryzacja|lab12_binaryzacja|hdmi|tb_bin.v/rgb2ycbcr_converter - rgb2ycbcr</ClosedNode>
          <ClosedNode>/tb_bin F:|Studia|JPS|lab12_binaryzacja|hdmi|tb_bin.v/rgb2ycbcr_converter - rgb2ycbcr</ClosedNode>
          <ClosedNode>/tb_hdmi D:|JiTPS|AdamMichna|hdmi|hdmi|tb_src|tb_hdmi.v</ClosedNode>
+         <ClosedNode>/tb_hdmi D:|JiTPS|AdamMichna|lab12_binaryzacja|lab12_binaryzacja|hdmi|tb_src|tb_hdmi.v</ClosedNode>
          <ClosedNode>/tb_hdmi D:|JiTPS|KoreckiTomasz|lab8|hdmi|tb_src|tb_hdmi.v/rgb2ycbcr_converter - rgb2ycbcr/Y_delay - delay_line</ClosedNode>
          <ClosedNode>/tb_hdmi D:|JiTPS|KoreckiTomasz|lab8|hdmi|tb_src|tb_hdmi.v/rgb2ycbcr_converter - rgb2ycbcr/de - delay_line</ClosedNode>
          <ClosedNode>/tb_hdmi D:|JiTPS|KoreckiTomasz|lab8|hdmi|tb_src|tb_hdmi.v/rgb2ycbcr_converter - rgb2ycbcr/hsync - delay_line</ClosedNode>
@@ -142,13 +153,13 @@
          <ClosedNode>/tb_rgb2ycbcr F:|Studia|JPS|lab12_binaryzacja|hdmi|tb_rgb2ycbcr.v/uut - rgb2ycbcr</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>tb_bin (F:/Studia/JPS/lab12_binaryzacja/hdmi/tb_bin.v)</SelectedItem>
+         <SelectedItem>tb_bin (D:/JiTPS/AdamMichna/lab12_binaryzacja/lab12_binaryzacja/hdmi/tb_bin.v)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >6</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >3</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000177000000020000000000000000000000000200000064ffffffff000000810000000300000002000001770000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000189000000020000000000000000000000000200000064ffffffff000000810000000300000002000001890000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>tb_bin (F:/Studia/JPS/lab12_binaryzacja/hdmi/tb_bin.v)</CurrentItem>
+      <CurrentItem>tb_bin (D:/JiTPS/AdamMichna/lab12_binaryzacja/lab12_binaryzacja/hdmi/tb_bin.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -160,7 +171,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000132000000010000000100000000000000000000000064ffffffff000000810000000000000001000001320000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
    </ItemView>
@@ -210,13 +221,13 @@
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000132000000010000000100000000000000000000000064ffffffff000000810000000000000001000001320000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="DESUT_XCO" guiview="Process" >
       <ClosedNodes>
