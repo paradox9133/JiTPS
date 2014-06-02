@@ -3,11 +3,11 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pn" timeStamp="Mon May 26 19:54:45 2014">
+<application name="pn" timeStamp="Mon Jun 02 11:29:36 2014">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="C8291CC3CA1F43BA83AB1524F5FF3734" type="project"/>
 <property name="ProjectIteration" value="18" type="project"/>
-<property name="ProjectFile" value="D:/JiTPS/AdamMichna/lab12_binaryzacja/lab12_binaryzacja/hdmi/hdmi.xise" type="project"/>
+<property name="ProjectFile" value="//VBOXSVR/studia/Semestr6/JiTPS/labrepo/lab12_binaryzacja/lab12_binaryzacja/hdmi/hdmi.xise" type="project"/>
 <property name="ProjectCreationTimestamp" value="2014-03-18T18:57:47" type="project"/>
 </section>
 <section name="Project Statistics" visible="true">
@@ -40,7 +40,7 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="PROP_PreferredLanguage" value="Verilog" type="design"/>
 <property name="FILE_COREGEN" value="3" type="source"/>
 <property name="FILE_UCF" value="1" type="source"/>
-<property name="FILE_VERILOG" value="26" type="source"/>
+<property name="FILE_VERILOG" value="27" type="source"/>
 </section>
 </application>
 </document>

@@ -11,6 +11,7 @@
          <ClosedNode>/dvi_decoder D:|JiTPS|KoreckiTomasz|lab6|hdmi|src|rx|dvi_decoder.v/dec_g - decode</ClosedNode>
          <ClosedNode>/dvi_decoder D:|JiTPS|KoreckiTomasz|lab6|hdmi|src|rx|dvi_decoder.v/dec_r - decode</ClosedNode>
          <ClosedNode>/dvi_decoder D:|___NoweFPGA|pipeline_ise|test|hdmi|src|rx|dvi_decoder.v</ClosedNode>
+         <ClosedNode>/dvi_decoder ||VBOXSVR|studia|Semestr6|JiTPS|labrepo|hdmi|hdmi|src|rx|dvi_decoder.v</ClosedNode>
          <ClosedNode>/dvi_decoder_nok D:|JiTPS|AdamMichna|hdmi|hdmi|src|rx_nok|dvi_decoder_nok.v/dec_b - decode_nok</ClosedNode>
          <ClosedNode>/dvi_decoder_nok D:|JiTPS|AdamMichna|hdmi|hdmi|src|rx_nok|dvi_decoder_nok.v/dec_g - decode_nok</ClosedNode>
          <ClosedNode>/dvi_decoder_nok D:|JiTPS|AdamMichna|hdmi|hdmi|src|rx_nok|dvi_decoder_nok.v/dec_r - decode_nok</ClosedNode>
@@ -33,8 +34,10 @@
          <ClosedNode>/hdmi_main D:|JiTPS|KoreckiTomasz|lab8|hdmi|src|hdmi_main.v/rgb2ycbcr_converter - rgb2ycbcr</ClosedNode>
          <ClosedNode>/hdmi_main D:|Study|Semestr VI|FPGA|lab8|hdmi|src|hdmi_main.v</ClosedNode>
          <ClosedNode>/hdmi_main D:|___NoweFPGA|pipeline_ise|test|hdmi|src|hdmi_main.v</ClosedNode>
+         <ClosedNode>/hdmi_main ||VBOXSVR|studia|Semestr6|JiTPS|labrepo|hdmi|hdmi|src|hdmi_main.v</ClosedNode>
          <ClosedNode>/mainLUT D:|JiTPS|AdamMichna|hdmi|hdmi|mainLUT.v</ClosedNode>
          <ClosedNode>/mainLUT D:|JiTPS|KoreckiTomasz|lab8|hdmi|mainLUT.v</ClosedNode>
+         <ClosedNode>/mainLUT ||VBOXSVR|studia|Semestr6|JiTPS|labrepo|hdmi|hdmi|mainLUT.v</ClosedNode>
          <ClosedNode>/rgb2ycbcr D:|Study|Semestr VI|FPGA|lab8|hdmi|rgb2ycbcr.v/Y_delay - delay_line</ClosedNode>
          <ClosedNode>/rgb2ycbcr D:|Study|Semestr VI|FPGA|lab8|hdmi|rgb2ycbcr.v/de - delay_line</ClosedNode>
          <ClosedNode>/rgb2ycbcr D:|Study|Semestr VI|FPGA|lab8|hdmi|rgb2ycbcr.v/hsync - delay_line</ClosedNode>
@@ -46,15 +49,16 @@
          <ClosedNode>/tb_hdmi D:|JiTPS|KoreckiTomasz|lab8|hdmi|tb_src|tb_hdmi.v</ClosedNode>
          <ClosedNode>/tb_hdmi D:|JiTPS|KoreckiTomasz|lab8|hdmi|tb_src|tb_hdmi.v/rgb2ycbcr_converter - rgb2ycbcr/Y_delay - delay_line</ClosedNode>
          <ClosedNode>/tb_hdmi D:|___NoweFPGA|pipeline_ise|test|hdmi|tb_src|tb_hdmi.v</ClosedNode>
+         <ClosedNode>/tb_hdmi ||VBOXSVR|studia|Semestr6|JiTPS|labrepo|hdmi|hdmi|tb_src|tb_hdmi.v</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>hdmi_main (D:/JiTPS/AdamMichna/hdmi/hdmi/src/hdmi_main.v)</SelectedItem>
+         <SelectedItem>cbfifo_i - DRAM16XN (//VBOXSVR/studia/Semestr6/JiTPS/labrepo/hdmi/hdmi/src/common/DRAM16XN.v)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >11</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000021e000000020000000000000000000000000200000064ffffffff0000008100000003000000020000021e0000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000000e0000000020000000000000000000000000200000064ffffffff000000810000000300000002000000e00000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>hdmi_main (D:/JiTPS/AdamMichna/hdmi/hdmi/src/hdmi_main.v)</CurrentItem>
+      <CurrentItem>cbfifo_i - DRAM16XN (//VBOXSVR/studia/Semestr6/JiTPS/labrepo/hdmi/hdmi/src/common/DRAM16XN.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
       <ClosedNodes>
@@ -64,9 +68,9 @@
       <SelectedItems>
          <SelectedItem></SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >10</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001d6000000010000000100000000000000000000000064ffffffff000000810000000000000001000001d60000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
    </ItemView>
@@ -89,7 +93,7 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000001e7000000010001000100000000000000000000000064ffffffff000000810000000000000001000001e70000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>work</CurrentItem>
    </ItemView>
@@ -160,13 +164,13 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001e7000000010000000100000000000000000000000064ffffffff000000810000000000000001000001e70000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -174,13 +178,13 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001e7000000010000000100000000000000000000000064ffffffff000000810000000000000001000001e70000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_XCO" guiview="Process" >
       <ClosedNodes>

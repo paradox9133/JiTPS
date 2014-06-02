@@ -5,175 +5,175 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="248" delta="old" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\delay_line.v" Line 42: Block identifier is required on this block
+<msg type="warning" file="HDLCompiler" num="248" delta="old" >"\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\delay_line.v" Line 42: Block identifier is required on this block
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 82: Assignment to <arg fmt="%s" index="1">clk25</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 82: Assignment to <arg fmt="%s" index="1">clk25</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v" Line 106: Assignment to <arg fmt="%s" index="1">ade</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v" Line 106: Assignment to <arg fmt="%s" index="1">ade</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\serdes_1_to_5_diff_data_nok.v" Line 248: Result of <arg fmt="%d" index="1">2</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\serdes_1_to_5_diff_data_nok.v" Line 248: Result of <arg fmt="%d" index="1">2</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\serdes_1_to_5_diff_data_nok.v" Line 250: Result of <arg fmt="%d" index="1">2</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\serdes_1_to_5_diff_data_nok.v" Line 250: Result of <arg fmt="%d" index="1">2</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\serdes_1_to_5_diff_data_nok.v" Line 251: Result of <arg fmt="%d" index="1">2</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\serdes_1_to_5_diff_data_nok.v" Line 251: Result of <arg fmt="%d" index="1">2</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1308" delta="old" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\phsaligner_nok.v" Line 180: Found full_case directive in module <arg fmt="%s" index="1">phsaligner_nok</arg>. Use of full_case directives may cause differences between RTL and post-synthesis simulation
+<msg type="warning" file="HDLCompiler" num="1308" delta="old" >"\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\phsaligner_nok.v" Line 180: Found full_case directive in module <arg fmt="%s" index="1">phsaligner_nok</arg>. Use of full_case directives may cause differences between RTL and post-synthesis simulation
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1308" delta="old" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\phsaligner_nok.v" Line 227: Found full_case directive in module <arg fmt="%s" index="1">phsaligner_nok</arg>. Use of full_case directives may cause differences between RTL and post-synthesis simulation
+<msg type="warning" file="HDLCompiler" num="1308" delta="old" >"\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\phsaligner_nok.v" Line 227: Found full_case directive in module <arg fmt="%s" index="1">phsaligner_nok</arg>. Use of full_case directives may cause differences between RTL and post-synthesis simulation
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v" Line 211: Assignment to <arg fmt="%s" index="1">vde_b</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v" Line 211: Assignment to <arg fmt="%s" index="1">vde_b</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1308" delta="old" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\phsaligner_nok.v" Line 180: Found full_case directive in module <arg fmt="%s" index="1">phsaligner_nok</arg>. Use of full_case directives may cause differences between RTL and post-synthesis simulation
+<msg type="warning" file="HDLCompiler" num="1308" delta="old" >"\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\phsaligner_nok.v" Line 180: Found full_case directive in module <arg fmt="%s" index="1">phsaligner_nok</arg>. Use of full_case directives may cause differences between RTL and post-synthesis simulation
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1308" delta="old" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\phsaligner_nok.v" Line 227: Found full_case directive in module <arg fmt="%s" index="1">phsaligner_nok</arg>. Use of full_case directives may cause differences between RTL and post-synthesis simulation
+<msg type="warning" file="HDLCompiler" num="1308" delta="old" >"\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\phsaligner_nok.v" Line 227: Found full_case directive in module <arg fmt="%s" index="1">phsaligner_nok</arg>. Use of full_case directives may cause differences between RTL and post-synthesis simulation
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v" Line 239: Assignment to <arg fmt="%s" index="1">vde_g</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v" Line 239: Assignment to <arg fmt="%s" index="1">vde_g</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v" Line 240: Assignment to <arg fmt="%s" index="1">ade_g</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v" Line 240: Assignment to <arg fmt="%s" index="1">ade_g</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v" Line 242: Assignment to <arg fmt="%s" index="1">aux1</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v" Line 242: Assignment to <arg fmt="%s" index="1">aux1</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1308" delta="old" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\phsaligner_nok.v" Line 180: Found full_case directive in module <arg fmt="%s" index="1">phsaligner_nok</arg>. Use of full_case directives may cause differences between RTL and post-synthesis simulation
+<msg type="warning" file="HDLCompiler" num="1308" delta="old" >"\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\phsaligner_nok.v" Line 180: Found full_case directive in module <arg fmt="%s" index="1">phsaligner_nok</arg>. Use of full_case directives may cause differences between RTL and post-synthesis simulation
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1308" delta="old" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\phsaligner_nok.v" Line 227: Found full_case directive in module <arg fmt="%s" index="1">phsaligner_nok</arg>. Use of full_case directives may cause differences between RTL and post-synthesis simulation
+<msg type="warning" file="HDLCompiler" num="1308" delta="old" >"\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\phsaligner_nok.v" Line 227: Found full_case directive in module <arg fmt="%s" index="1">phsaligner_nok</arg>. Use of full_case directives may cause differences between RTL and post-synthesis simulation
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v" Line 270: Assignment to <arg fmt="%s" index="1">aux2</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v" Line 270: Assignment to <arg fmt="%s" index="1">aux2</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 168: Assignment to <arg fmt="%s" index="1">rx_pclkx2</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 168: Assignment to <arg fmt="%s" index="1">rx_pclkx2</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 169: Assignment to <arg fmt="%s" index="1">rx_pclkx10</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 169: Assignment to <arg fmt="%s" index="1">rx_pclkx10</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 170: Assignment to <arg fmt="%s" index="1">rx_pllclk0</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 170: Assignment to <arg fmt="%s" index="1">rx_pllclk0</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 172: Assignment to <arg fmt="%s" index="1">rx_pllclk2</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 172: Assignment to <arg fmt="%s" index="1">rx_pllclk2</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 173: Assignment to <arg fmt="%s" index="1">rx_plllckd</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 173: Assignment to <arg fmt="%s" index="1">rx_plllckd</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 174: Assignment to <arg fmt="%s" index="1">rx_tmdsclk</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 174: Assignment to <arg fmt="%s" index="1">rx_tmdsclk</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 175: Assignment to <arg fmt="%s" index="1">rx_serdesstrobe</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 175: Assignment to <arg fmt="%s" index="1">rx_serdesstrobe</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 183: Assignment to <arg fmt="%s" index="1">rx_blue_vld</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 183: Assignment to <arg fmt="%s" index="1">rx_blue_vld</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 184: Assignment to <arg fmt="%s" index="1">rx_green_vld</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 184: Assignment to <arg fmt="%s" index="1">rx_green_vld</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 185: Assignment to <arg fmt="%s" index="1">rx_red_vld</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 185: Assignment to <arg fmt="%s" index="1">rx_red_vld</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 186: Assignment to <arg fmt="%s" index="1">rx_blue_rdy</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 186: Assignment to <arg fmt="%s" index="1">rx_blue_rdy</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 187: Assignment to <arg fmt="%s" index="1">rx_green_rdy</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 187: Assignment to <arg fmt="%s" index="1">rx_green_rdy</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 188: Assignment to <arg fmt="%s" index="1">rx_red_rdy</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 188: Assignment to <arg fmt="%s" index="1">rx_red_rdy</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 190: Assignment to <arg fmt="%s" index="1">rx_psalgnerr</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 190: Assignment to <arg fmt="%s" index="1">rx_psalgnerr</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 192: Assignment to <arg fmt="%s" index="1">rx_sdata</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 192: Assignment to <arg fmt="%s" index="1">rx_sdata</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 362: Assignment to <arg fmt="%s" index="1">tx_bufpll_lock</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 362: Assignment to <arg fmt="%s" index="1">tx_bufpll_lock</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 364: Assignment to <arg fmt="%s" index="1">tx0_reset</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 364: Assignment to <arg fmt="%s" index="1">tx0_reset</arg> ignored, since the identifier is never used
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="old" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 209: Net &lt;<arg fmt="%s" index="1">r_mux[7][7]</arg>&gt; does not have a driver.
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 209: Net &lt;<arg fmt="%s" index="1">r_mux[7][7]</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="old" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 210: Net &lt;<arg fmt="%s" index="1">g_mux[7][7]</arg>&gt; does not have a driver.
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 210: Net &lt;<arg fmt="%s" index="1">g_mux[7][7]</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="old" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 211: Net &lt;<arg fmt="%s" index="1">b_mux[7][7]</arg>&gt; does not have a driver.
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 211: Net &lt;<arg fmt="%s" index="1">b_mux[7][7]</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="old" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 212: Net &lt;<arg fmt="%s" index="1">de_mux[7]</arg>&gt; does not have a driver.
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 212: Net &lt;<arg fmt="%s" index="1">de_mux[7]</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="old" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 213: Net &lt;<arg fmt="%s" index="1">hsync_mux[7]</arg>&gt; does not have a driver.
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 213: Net &lt;<arg fmt="%s" index="1">hsync_mux[7]</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="old" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 214: Net &lt;<arg fmt="%s" index="1">vsync_mux[7]</arg>&gt; does not have a driver.
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 214: Net &lt;<arg fmt="%s" index="1">vsync_mux[7]</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="old" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 290: Net &lt;<arg fmt="%s" index="1">tx_reset</arg>&gt; does not have a driver.
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 290: Net &lt;<arg fmt="%s" index="1">tx_reset</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="634" delta="old" >"D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 241: Net &lt;<arg fmt="%s" index="1">clk</arg>&gt; does not have a driver.
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 241: Net &lt;<arg fmt="%s" index="1">clk</arg>&gt; does not have a driver.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v</arg>&quot; line <arg fmt="%s" index="2">153</arg>: Output port &lt;<arg fmt="%s" index="3">sdout</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dvi_rx1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v</arg>&quot; line <arg fmt="%s" index="2">153</arg>: Output port &lt;<arg fmt="%s" index="3">sdout</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dvi_rx1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v</arg>&quot; line <arg fmt="%s" index="2">153</arg>: Output port &lt;<arg fmt="%s" index="3">pclkx2</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dvi_rx1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v</arg>&quot; line <arg fmt="%s" index="2">153</arg>: Output port &lt;<arg fmt="%s" index="3">pclkx2</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dvi_rx1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v</arg>&quot; line <arg fmt="%s" index="2">153</arg>: Output port &lt;<arg fmt="%s" index="3">pclkx10</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dvi_rx1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v</arg>&quot; line <arg fmt="%s" index="2">153</arg>: Output port &lt;<arg fmt="%s" index="3">pclkx10</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dvi_rx1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v</arg>&quot; line <arg fmt="%s" index="2">153</arg>: Output port &lt;<arg fmt="%s" index="3">pllclk0</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dvi_rx1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v</arg>&quot; line <arg fmt="%s" index="2">153</arg>: Output port &lt;<arg fmt="%s" index="3">pllclk0</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dvi_rx1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v</arg>&quot; line <arg fmt="%s" index="2">153</arg>: Output port &lt;<arg fmt="%s" index="3">pllclk2</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dvi_rx1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v</arg>&quot; line <arg fmt="%s" index="2">153</arg>: Output port &lt;<arg fmt="%s" index="3">pllclk2</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dvi_rx1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v</arg>&quot; line <arg fmt="%s" index="2">153</arg>: Output port &lt;<arg fmt="%s" index="3">pll_lckd</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dvi_rx1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v</arg>&quot; line <arg fmt="%s" index="2">153</arg>: Output port &lt;<arg fmt="%s" index="3">pll_lckd</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dvi_rx1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v</arg>&quot; line <arg fmt="%s" index="2">153</arg>: Output port &lt;<arg fmt="%s" index="3">serdesstrobe</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dvi_rx1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v</arg>&quot; line <arg fmt="%s" index="2">153</arg>: Output port &lt;<arg fmt="%s" index="3">serdesstrobe</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dvi_rx1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v</arg>&quot; line <arg fmt="%s" index="2">153</arg>: Output port &lt;<arg fmt="%s" index="3">tmdsclk</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dvi_rx1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v</arg>&quot; line <arg fmt="%s" index="2">153</arg>: Output port &lt;<arg fmt="%s" index="3">tmdsclk</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dvi_rx1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v</arg>&quot; line <arg fmt="%s" index="2">153</arg>: Output port &lt;<arg fmt="%s" index="3">blue_vld</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dvi_rx1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v</arg>&quot; line <arg fmt="%s" index="2">153</arg>: Output port &lt;<arg fmt="%s" index="3">blue_vld</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dvi_rx1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v</arg>&quot; line <arg fmt="%s" index="2">153</arg>: Output port &lt;<arg fmt="%s" index="3">green_vld</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dvi_rx1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v</arg>&quot; line <arg fmt="%s" index="2">153</arg>: Output port &lt;<arg fmt="%s" index="3">green_vld</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dvi_rx1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v</arg>&quot; line <arg fmt="%s" index="2">153</arg>: Output port &lt;<arg fmt="%s" index="3">red_vld</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dvi_rx1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v</arg>&quot; line <arg fmt="%s" index="2">153</arg>: Output port &lt;<arg fmt="%s" index="3">red_vld</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dvi_rx1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v</arg>&quot; line <arg fmt="%s" index="2">153</arg>: Output port &lt;<arg fmt="%s" index="3">blue_rdy</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dvi_rx1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v</arg>&quot; line <arg fmt="%s" index="2">153</arg>: Output port &lt;<arg fmt="%s" index="3">blue_rdy</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dvi_rx1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v</arg>&quot; line <arg fmt="%s" index="2">153</arg>: Output port &lt;<arg fmt="%s" index="3">green_rdy</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dvi_rx1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v</arg>&quot; line <arg fmt="%s" index="2">153</arg>: Output port &lt;<arg fmt="%s" index="3">green_rdy</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dvi_rx1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v</arg>&quot; line <arg fmt="%s" index="2">153</arg>: Output port &lt;<arg fmt="%s" index="3">red_rdy</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dvi_rx1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v</arg>&quot; line <arg fmt="%s" index="2">153</arg>: Output port &lt;<arg fmt="%s" index="3">red_rdy</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dvi_rx1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v</arg>&quot; line <arg fmt="%s" index="2">153</arg>: Output port &lt;<arg fmt="%s" index="3">psalgnerr</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dvi_rx1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v</arg>&quot; line <arg fmt="%s" index="2">153</arg>: Output port &lt;<arg fmt="%s" index="3">psalgnerr</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dvi_rx1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
 <msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">r_mux&lt;7&gt;</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
@@ -236,34 +236,34 @@
 <msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">clk</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v</arg>&quot; line <arg fmt="%s" index="2">191</arg>: Output port &lt;<arg fmt="%s" index="3">vde</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dec_b</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v</arg>&quot; line <arg fmt="%s" index="2">191</arg>: Output port &lt;<arg fmt="%s" index="3">vde</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dec_b</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v</arg>&quot; line <arg fmt="%s" index="2">219</arg>: Output port &lt;<arg fmt="%s" index="3">adout</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dec_g</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v</arg>&quot; line <arg fmt="%s" index="2">219</arg>: Output port &lt;<arg fmt="%s" index="3">adout</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dec_g</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v</arg>&quot; line <arg fmt="%s" index="2">219</arg>: Output port &lt;<arg fmt="%s" index="3">vde</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dec_g</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v</arg>&quot; line <arg fmt="%s" index="2">219</arg>: Output port &lt;<arg fmt="%s" index="3">vde</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dec_g</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v</arg>&quot; line <arg fmt="%s" index="2">219</arg>: Output port &lt;<arg fmt="%s" index="3">ade</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dec_g</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v</arg>&quot; line <arg fmt="%s" index="2">219</arg>: Output port &lt;<arg fmt="%s" index="3">ade</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dec_g</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v</arg>&quot; line <arg fmt="%s" index="2">247</arg>: Output port &lt;<arg fmt="%s" index="3">adout</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dec_r</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v</arg>&quot; line <arg fmt="%s" index="2">247</arg>: Output port &lt;<arg fmt="%s" index="3">adout</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dec_r</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v</arg>&quot; line <arg fmt="%s" index="2">247</arg>: Output port &lt;<arg fmt="%s" index="3">ade</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dec_r</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v</arg>&quot; line <arg fmt="%s" index="2">247</arg>: Output port &lt;<arg fmt="%s" index="3">ade</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">dec_r</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
 <msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">dilndpreamble</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx\chnlbond.v</arg>&quot; line <arg fmt="%s" index="2">86</arg>: Output port &lt;<arg fmt="%s" index="3">O_DATA_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">cbfifo_i</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx\chnlbond.v</arg>&quot; line <arg fmt="%s" index="2">86</arg>: Output port &lt;<arg fmt="%s" index="3">O_DATA_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">cbfifo_i</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
 <msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\tx\convert_30to15_fifo.v</arg>&quot; line <arg fmt="%s" index="2">64</arg>: Output port &lt;<arg fmt="%s" index="3">O_DATA_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fifo_u</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\tx\convert_30to15_fifo.v</arg>&quot; line <arg fmt="%s" index="2">64</arg>: Output port &lt;<arg fmt="%s" index="3">O_DATA_OUT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">fifo_u</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
 <msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.

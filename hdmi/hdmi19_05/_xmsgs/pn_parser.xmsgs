@@ -8,7 +8,70 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/JiTPS/AdamMichna/hdmi/hdmi/tb_src/hdmi_in.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;//VBOXSVR/studia/Semestr6/JiTPS/labrepo/hdmi/hdmi19_05/delay.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;//VBOXSVR/studia/Semestr6/JiTPS/labrepo/hdmi/hdmi19_05/delay_line.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;//VBOXSVR/studia/Semestr6/JiTPS/labrepo/hdmi/hdmi19_05/mainLUT.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;//VBOXSVR/studia/Semestr6/JiTPS/labrepo/hdmi/hdmi19_05/rgb2ycbcr.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;//VBOXSVR/studia/Semestr6/JiTPS/labrepo/hdmi/hdmi19_05/src/common/DRAM16XN.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;//VBOXSVR/studia/Semestr6/JiTPS/labrepo/hdmi/hdmi19_05/src/hdmi_main.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;//VBOXSVR/studia/Semestr6/JiTPS/labrepo/hdmi/hdmi19_05/src/rx/chnlbond.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;//VBOXSVR/studia/Semestr6/JiTPS/labrepo/hdmi/hdmi19_05/src/rx/decode.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;//VBOXSVR/studia/Semestr6/JiTPS/labrepo/hdmi/hdmi19_05/src/rx/dvi_decoder.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;//VBOXSVR/studia/Semestr6/JiTPS/labrepo/hdmi/hdmi19_05/src/rx/phsaligner.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;//VBOXSVR/studia/Semestr6/JiTPS/labrepo/hdmi/hdmi19_05/src/rx/serdes_1_to_5_diff_data.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;//VBOXSVR/studia/Semestr6/JiTPS/labrepo/hdmi/hdmi19_05/src/rx_nok/decode_nok.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;//VBOXSVR/studia/Semestr6/JiTPS/labrepo/hdmi/hdmi19_05/src/rx_nok/dvi_decoder_nok.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;//VBOXSVR/studia/Semestr6/JiTPS/labrepo/hdmi/hdmi19_05/src/rx_nok/phsaligner_nok.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;//VBOXSVR/studia/Semestr6/JiTPS/labrepo/hdmi/hdmi19_05/src/rx_nok/serdes_1_to_5_diff_data_nok.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;//VBOXSVR/studia/Semestr6/JiTPS/labrepo/hdmi/hdmi19_05/src/tx/convert_30to15_fifo.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;//VBOXSVR/studia/Semestr6/JiTPS/labrepo/hdmi/hdmi19_05/src/tx/dvi_encoder_top.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;//VBOXSVR/studia/Semestr6/JiTPS/labrepo/hdmi/hdmi19_05/src/tx/encode.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;//VBOXSVR/studia/Semestr6/JiTPS/labrepo/hdmi/hdmi19_05/src/tx/serdes_n_to_1.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;//VBOXSVR/studia/Semestr6/JiTPS/labrepo/hdmi/hdmi19_05/tb_src/hdmi_in.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;//VBOXSVR/studia/Semestr6/JiTPS/labrepo/hdmi/hdmi19_05/tb_src/hdmi_out.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;//VBOXSVR/studia/Semestr6/JiTPS/labrepo/hdmi/hdmi19_05/tb_src/tb_hdmi.v&quot; into library work</arg>
 </msg>
 
 </messages>

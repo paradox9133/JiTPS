@@ -1,16 +1,16 @@
-Release 14.6 - xst P.68d (nt64)
+Release 14.7 - xst P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total CPU time to Xst completion: 0.25 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total CPU time to Xst completion: 0.27 secs
  
 --> Reading design: hdmi_main.prj
 
@@ -108,44 +108,44 @@ Cores Search Directories           : {"ipcore_dir"  }
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\common\DRAM16XN.v" into library work
+Analyzing Verilog file "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\common\DRAM16XN.v" into library work
 Parsing module <DRAM16XN>.
-Analyzing Verilog file "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\serdes_1_to_5_diff_data_nok.v" into library work
+Analyzing Verilog file "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\serdes_1_to_5_diff_data_nok.v" into library work
 Parsing module <serdes_1_to_5_diff_data_nok>.
-Analyzing Verilog file "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\phsaligner_nok.v" into library work
+Analyzing Verilog file "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\phsaligner_nok.v" into library work
 Parsing module <phsaligner_nok>.
-Analyzing Verilog file "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx\chnlbond.v" into library work
+Analyzing Verilog file "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx\chnlbond.v" into library work
 Parsing module <chnlbond>.
-Analyzing Verilog file "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\delay.v" into library work
+Analyzing Verilog file "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\delay.v" into library work
 Parsing module <delay>.
-Analyzing Verilog file "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\tx\serdes_n_to_1.v" into library work
+Analyzing Verilog file "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\tx\serdes_n_to_1.v" into library work
 Parsing module <serdes_n_to_1>.
-Analyzing Verilog file "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\tx\encode.v" into library work
+Analyzing Verilog file "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\tx\encode.v" into library work
 Parsing module <encode>.
-Analyzing Verilog file "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\tx\convert_30to15_fifo.v" into library work
+Analyzing Verilog file "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\tx\convert_30to15_fifo.v" into library work
 Parsing module <convert_30to15_fifo>.
-Analyzing Verilog file "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\decode_nok.v" into library work
+Analyzing Verilog file "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\decode_nok.v" into library work
 Parsing module <decode_nok>.
-INFO:HDLCompiler:693 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\decode_nok.v" Line 188. parameter declaration becomes local in decode_nok with formal parameter declaration list
-INFO:HDLCompiler:693 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\decode_nok.v" Line 189. parameter declaration becomes local in decode_nok with formal parameter declaration list
-INFO:HDLCompiler:693 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\decode_nok.v" Line 190. parameter declaration becomes local in decode_nok with formal parameter declaration list
-INFO:HDLCompiler:693 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\decode_nok.v" Line 191. parameter declaration becomes local in decode_nok with formal parameter declaration list
-Analyzing Verilog file "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\ipcore_dir\sum.v" into library work
+INFO:HDLCompiler:693 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\decode_nok.v" Line 188. parameter declaration becomes local in decode_nok with formal parameter declaration list
+INFO:HDLCompiler:693 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\decode_nok.v" Line 189. parameter declaration becomes local in decode_nok with formal parameter declaration list
+INFO:HDLCompiler:693 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\decode_nok.v" Line 190. parameter declaration becomes local in decode_nok with formal parameter declaration list
+INFO:HDLCompiler:693 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\decode_nok.v" Line 191. parameter declaration becomes local in decode_nok with formal parameter declaration list
+Analyzing Verilog file "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\ipcore_dir\sum.v" into library work
 Parsing module <sum>.
-Analyzing Verilog file "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\ipcore_dir\mull.v" into library work
+Analyzing Verilog file "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\ipcore_dir\mull.v" into library work
 Parsing module <mull>.
-Analyzing Verilog file "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\delay_line.v" into library work
+Analyzing Verilog file "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\delay_line.v" into library work
 Parsing module <delay_line>.
-WARNING:HDLCompiler:248 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\delay_line.v" Line 42: Block identifier is required on this block
-Analyzing Verilog file "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\thresholding.v" into library work
+WARNING:HDLCompiler:248 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\delay_line.v" Line 42: Block identifier is required on this block
+Analyzing Verilog file "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\thresholding.v" into library work
 Parsing module <thresholding>.
-Analyzing Verilog file "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\tx\dvi_encoder_top.v" into library work
+Analyzing Verilog file "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\tx\dvi_encoder_top.v" into library work
 Parsing module <dvi_encoder_top>.
-Analyzing Verilog file "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v" into library work
+Analyzing Verilog file "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v" into library work
 Parsing module <dvi_decoder_nok>.
-Analyzing Verilog file "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\rgb2ycbcr.v" into library work
+Analyzing Verilog file "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\rgb2ycbcr.v" into library work
 Parsing module <rgb2ycbcr>.
-Analyzing Verilog file "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" into library work
+Analyzing Verilog file "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" into library work
 Parsing module <hdmi_main>.
 
 =========================================================================
@@ -157,10 +157,10 @@ Elaborating module <hdmi_main>.
 Elaborating module <BUFIO2(DIVIDE_BYPASS="FALSE",DIVIDE=5)>.
 
 Elaborating module <BUFG>.
-WARNING:HDLCompiler:1127 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 82: Assignment to clk25 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 82: Assignment to clk25 ignored, since the identifier is never used
 
 Elaborating module <dvi_decoder_nok>.
-WARNING:HDLCompiler:1127 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v" Line 106: Assignment to ade ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v" Line 106: Assignment to ade ignored, since the identifier is never used
 
 Elaborating module <IBUFDS(IOSTANDARD="TMDS_33",DIFF_TERM="FALSE")>.
 
@@ -173,9 +173,9 @@ Elaborating module <BUFPLL(DIVIDE=5)>.
 Elaborating module <decode_nok(CHANNEL="BLUE")>.
 
 Elaborating module <serdes_1_to_5_diff_data_nok(DIFF_TERM="FALSE",BITSLIP_ENABLE="TRUE")>.
-WARNING:HDLCompiler:413 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\serdes_1_to_5_diff_data_nok.v" Line 248: Result of 2-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:413 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\serdes_1_to_5_diff_data_nok.v" Line 250: Result of 2-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:413 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\serdes_1_to_5_diff_data_nok.v" Line 251: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\serdes_1_to_5_diff_data_nok.v" Line 248: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\serdes_1_to_5_diff_data_nok.v" Line 250: Result of 2-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\serdes_1_to_5_diff_data_nok.v" Line 251: Result of 2-bit expression is truncated to fit in 1-bit target.
 
 Elaborating module <IBUFDS(DIFF_TERM="FALSE")>.
 
@@ -188,46 +188,46 @@ Elaborating module <ISERDES2(DATA_WIDTH=5,DATA_RATE="SDR",BITSLIP_ENABLE="TRUE",
 Elaborating module <ISERDES2(DATA_WIDTH=5,DATA_RATE="SDR",BITSLIP_ENABLE="TRUE",SERDES_MODE="SLAVE",INTERFACE_TYPE="RETIMED")>.
 
 Elaborating module <phsaligner_nok(CHANNEL="BLUE")>.
-WARNING:HDLCompiler:1308 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\phsaligner_nok.v" Line 180: Found full_case directive in module phsaligner_nok. Use of full_case directives may cause differences between RTL and post-synthesis simulation
-WARNING:HDLCompiler:1308 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\phsaligner_nok.v" Line 227: Found full_case directive in module phsaligner_nok. Use of full_case directives may cause differences between RTL and post-synthesis simulation
+WARNING:HDLCompiler:1308 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\phsaligner_nok.v" Line 180: Found full_case directive in module phsaligner_nok. Use of full_case directives may cause differences between RTL and post-synthesis simulation
+WARNING:HDLCompiler:1308 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\phsaligner_nok.v" Line 227: Found full_case directive in module phsaligner_nok. Use of full_case directives may cause differences between RTL and post-synthesis simulation
 
 Elaborating module <chnlbond>.
 
 Elaborating module <DRAM16XN(data_width=10)>.
 
 Elaborating module <RAM16X1D>.
-WARNING:HDLCompiler:1127 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v" Line 211: Assignment to vde_b ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v" Line 211: Assignment to vde_b ignored, since the identifier is never used
 
 Elaborating module <decode_nok(CHANNEL="GREEN")>.
 
 Elaborating module <phsaligner_nok(CHANNEL="GREEN")>.
-WARNING:HDLCompiler:1308 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\phsaligner_nok.v" Line 180: Found full_case directive in module phsaligner_nok. Use of full_case directives may cause differences between RTL and post-synthesis simulation
-WARNING:HDLCompiler:1308 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\phsaligner_nok.v" Line 227: Found full_case directive in module phsaligner_nok. Use of full_case directives may cause differences between RTL and post-synthesis simulation
-WARNING:HDLCompiler:1127 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v" Line 239: Assignment to vde_g ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v" Line 240: Assignment to ade_g ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v" Line 242: Assignment to aux1 ignored, since the identifier is never used
+WARNING:HDLCompiler:1308 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\phsaligner_nok.v" Line 180: Found full_case directive in module phsaligner_nok. Use of full_case directives may cause differences between RTL and post-synthesis simulation
+WARNING:HDLCompiler:1308 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\phsaligner_nok.v" Line 227: Found full_case directive in module phsaligner_nok. Use of full_case directives may cause differences between RTL and post-synthesis simulation
+WARNING:HDLCompiler:1127 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v" Line 239: Assignment to vde_g ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v" Line 240: Assignment to ade_g ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v" Line 242: Assignment to aux1 ignored, since the identifier is never used
 
 Elaborating module <decode_nok(CHANNEL="RED")>.
 
 Elaborating module <phsaligner_nok(CHANNEL="RED")>.
-WARNING:HDLCompiler:1308 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\phsaligner_nok.v" Line 180: Found full_case directive in module phsaligner_nok. Use of full_case directives may cause differences between RTL and post-synthesis simulation
-WARNING:HDLCompiler:1308 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\phsaligner_nok.v" Line 227: Found full_case directive in module phsaligner_nok. Use of full_case directives may cause differences between RTL and post-synthesis simulation
-WARNING:HDLCompiler:1127 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v" Line 270: Assignment to aux2 ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 168: Assignment to rx_pclkx2 ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 169: Assignment to rx_pclkx10 ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 170: Assignment to rx_pllclk0 ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 172: Assignment to rx_pllclk2 ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 173: Assignment to rx_plllckd ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 174: Assignment to rx_tmdsclk ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 175: Assignment to rx_serdesstrobe ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 183: Assignment to rx_blue_vld ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 184: Assignment to rx_green_vld ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 185: Assignment to rx_red_vld ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 186: Assignment to rx_blue_rdy ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 187: Assignment to rx_green_rdy ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 188: Assignment to rx_red_rdy ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 190: Assignment to rx_psalgnerr ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 192: Assignment to rx_sdata ignored, since the identifier is never used
+WARNING:HDLCompiler:1308 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\phsaligner_nok.v" Line 180: Found full_case directive in module phsaligner_nok. Use of full_case directives may cause differences between RTL and post-synthesis simulation
+WARNING:HDLCompiler:1308 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\phsaligner_nok.v" Line 227: Found full_case directive in module phsaligner_nok. Use of full_case directives may cause differences between RTL and post-synthesis simulation
+WARNING:HDLCompiler:1127 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v" Line 270: Assignment to aux2 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 168: Assignment to rx_pclkx2 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 169: Assignment to rx_pclkx10 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 170: Assignment to rx_pllclk0 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 172: Assignment to rx_pllclk2 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 173: Assignment to rx_plllckd ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 174: Assignment to rx_tmdsclk ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 175: Assignment to rx_serdesstrobe ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 183: Assignment to rx_blue_vld ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 184: Assignment to rx_green_vld ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 185: Assignment to rx_red_vld ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 186: Assignment to rx_blue_rdy ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 187: Assignment to rx_green_rdy ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 188: Assignment to rx_red_rdy ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 190: Assignment to rx_psalgnerr ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 192: Assignment to rx_sdata ignored, since the identifier is never used
 
 Elaborating module <rgb2ycbcr>.
 
@@ -248,8 +248,8 @@ Elaborating module <thresholding>.
 Elaborating module <PLL_BASE(CLKIN_PERIOD=10,CLKFBOUT_MULT=10,CLKOUT0_DIVIDE=1,CLKOUT1_DIVIDE=10,CLKOUT2_DIVIDE=5,COMPENSATION="SOURCE_SYNCHRONOUS")>.
 
 Elaborating module <BUFGMUX>.
-WARNING:HDLCompiler:1127 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 362: Assignment to tx_bufpll_lock ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 364: Assignment to tx0_reset ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 362: Assignment to tx_bufpll_lock ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 364: Assignment to tx0_reset ignored, since the identifier is never used
 
 Elaborating module <dvi_encoder_top>.
 
@@ -278,36 +278,36 @@ Elaborating module <FDR>.
 Elaborating module <FDRE>.
 
 Elaborating module <FDE>.
-WARNING:HDLCompiler:634 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 209: Net <r_mux[7][7]> does not have a driver.
-WARNING:HDLCompiler:634 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 210: Net <g_mux[7][7]> does not have a driver.
-WARNING:HDLCompiler:634 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 211: Net <b_mux[7][7]> does not have a driver.
-WARNING:HDLCompiler:634 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 212: Net <de_mux[7]> does not have a driver.
-WARNING:HDLCompiler:634 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 213: Net <hsync_mux[7]> does not have a driver.
-WARNING:HDLCompiler:634 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 214: Net <vsync_mux[7]> does not have a driver.
-WARNING:HDLCompiler:634 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 290: Net <tx_reset> does not have a driver.
-WARNING:HDLCompiler:634 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 241: Net <clk> does not have a driver.
+WARNING:HDLCompiler:634 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 209: Net <r_mux[7][7]> does not have a driver.
+WARNING:HDLCompiler:634 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 210: Net <g_mux[7][7]> does not have a driver.
+WARNING:HDLCompiler:634 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 211: Net <b_mux[7][7]> does not have a driver.
+WARNING:HDLCompiler:634 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 212: Net <de_mux[7]> does not have a driver.
+WARNING:HDLCompiler:634 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 213: Net <hsync_mux[7]> does not have a driver.
+WARNING:HDLCompiler:634 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 214: Net <vsync_mux[7]> does not have a driver.
+WARNING:HDLCompiler:634 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 290: Net <tx_reset> does not have a driver.
+WARNING:HDLCompiler:634 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" Line 241: Net <clk> does not have a driver.
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <hdmi_main>.
-    Related source file is "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v".
-INFO:Xst:3210 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" line 153: Output port <sdout> of the instance <dvi_rx1> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" line 153: Output port <pclkx2> of the instance <dvi_rx1> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" line 153: Output port <pclkx10> of the instance <dvi_rx1> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" line 153: Output port <pllclk0> of the instance <dvi_rx1> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" line 153: Output port <pllclk2> of the instance <dvi_rx1> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" line 153: Output port <pll_lckd> of the instance <dvi_rx1> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" line 153: Output port <serdesstrobe> of the instance <dvi_rx1> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" line 153: Output port <tmdsclk> of the instance <dvi_rx1> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" line 153: Output port <blue_vld> of the instance <dvi_rx1> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" line 153: Output port <green_vld> of the instance <dvi_rx1> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" line 153: Output port <red_vld> of the instance <dvi_rx1> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" line 153: Output port <blue_rdy> of the instance <dvi_rx1> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" line 153: Output port <green_rdy> of the instance <dvi_rx1> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" line 153: Output port <red_rdy> of the instance <dvi_rx1> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" line 153: Output port <psalgnerr> of the instance <dvi_rx1> is unconnected or connected to loadless signal.
+    Related source file is "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v".
+INFO:Xst:3210 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" line 153: Output port <sdout> of the instance <dvi_rx1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" line 153: Output port <pclkx2> of the instance <dvi_rx1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" line 153: Output port <pclkx10> of the instance <dvi_rx1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" line 153: Output port <pllclk0> of the instance <dvi_rx1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" line 153: Output port <pllclk2> of the instance <dvi_rx1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" line 153: Output port <pll_lckd> of the instance <dvi_rx1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" line 153: Output port <serdesstrobe> of the instance <dvi_rx1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" line 153: Output port <tmdsclk> of the instance <dvi_rx1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" line 153: Output port <blue_vld> of the instance <dvi_rx1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" line 153: Output port <green_vld> of the instance <dvi_rx1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" line 153: Output port <red_vld> of the instance <dvi_rx1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" line 153: Output port <blue_rdy> of the instance <dvi_rx1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" line 153: Output port <green_rdy> of the instance <dvi_rx1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" line 153: Output port <red_rdy> of the instance <dvi_rx1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\hdmi_main.v" line 153: Output port <psalgnerr> of the instance <dvi_rx1> is unconnected or connected to loadless signal.
 WARNING:Xst:653 - Signal <r_mux<7>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
 WARNING:Xst:653 - Signal <r_mux<6>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
 WARNING:Xst:653 - Signal <r_mux<5>> is used but never assigned. This sourceless signal will be automatically connected to value GND.
@@ -333,13 +333,13 @@ WARNING:Xst:653 - Signal <clk> is used but never assigned. This sourceless signa
 Unit <hdmi_main> synthesized.
 
 Synthesizing Unit <dvi_decoder_nok>.
-    Related source file is "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v".
-INFO:Xst:3210 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v" line 191: Output port <vde> of the instance <dec_b> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v" line 219: Output port <adout> of the instance <dec_g> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v" line 219: Output port <vde> of the instance <dec_g> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v" line 219: Output port <ade> of the instance <dec_g> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v" line 247: Output port <adout> of the instance <dec_r> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v" line 247: Output port <ade> of the instance <dec_r> is unconnected or connected to loadless signal.
+    Related source file is "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v".
+INFO:Xst:3210 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v" line 191: Output port <vde> of the instance <dec_b> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v" line 219: Output port <adout> of the instance <dec_g> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v" line 219: Output port <vde> of the instance <dec_g> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v" line 219: Output port <ade> of the instance <dec_g> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v" line 247: Output port <adout> of the instance <dec_r> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\dvi_decoder_nok.v" line 247: Output port <ade> of the instance <dec_r> is unconnected or connected to loadless signal.
     Found 1-bit register for signal <dilndpreamble>.
     Found 1-bit register for signal <videopreamble>.
     Summary:
@@ -348,7 +348,7 @@ INFO:Xst:3210 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\sr
 Unit <dvi_decoder_nok> synthesized.
 
 Synthesizing Unit <decode_nok_1>.
-    Related source file is "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\decode_nok.v".
+    Related source file is "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\decode_nok.v".
         CHANNEL = "BLUE"
 WARNING:Xst:647 - Input <dilndpreamble> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 1-bit register for signal <toggle>.
@@ -373,7 +373,7 @@ WARNING:Xst:647 - Input <dilndpreamble> is never used. This port will be preserv
 Unit <decode_nok_1> synthesized.
 
 Synthesizing Unit <serdes_1_to_5_diff_data_nok>.
-    Related source file is "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\serdes_1_to_5_diff_data_nok.v".
+    Related source file is "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\serdes_1_to_5_diff_data_nok.v".
         DIFF_TERM = "FALSE"
         SIM_TAP_DELAY = 49
         BITSLIP_ENABLE = "TRUE"
@@ -415,7 +415,7 @@ Synthesizing Unit <serdes_1_to_5_diff_data_nok>.
 Unit <serdes_1_to_5_diff_data_nok> synthesized.
 
 Synthesizing Unit <phsaligner_nok_1>.
-    Related source file is "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\phsaligner_nok.v".
+    Related source file is "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\phsaligner_nok.v".
         OPENEYE_CNT_WD = 3
         CTKNCNTWD = 4
         SRCHTIMERWD = 12
@@ -460,12 +460,12 @@ Synthesizing Unit <phsaligner_nok_1>.
 Unit <phsaligner_nok_1> synthesized.
 
 Synthesizing Unit <chnlbond>.
-    Related source file is "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx\chnlbond.v".
+    Related source file is "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx\chnlbond.v".
         CTRLTOKEN0 = 10'b1101010100
         CTRLTOKEN1 = 10'b0010101011
         CTRLTOKEN2 = 10'b0101010100
         CTRLTOKEN3 = 10'b1010101011
-INFO:Xst:3210 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx\chnlbond.v" line 86: Output port <O_DATA_OUT> of the instance <cbfifo_i> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx\chnlbond.v" line 86: Output port <O_DATA_OUT> of the instance <cbfifo_i> is unconnected or connected to loadless signal.
     Register <we> equivalent to <rawdata_vld_q> has been removed
     Found 4-bit register for signal <wa>.
     Found 10-bit register for signal <sdata>.
@@ -486,14 +486,14 @@ INFO:Xst:3210 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\sr
 Unit <chnlbond> synthesized.
 
 Synthesizing Unit <DRAM16XN_1>.
-    Related source file is "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\common\DRAM16XN.v".
+    Related source file is "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\common\DRAM16XN.v".
         data_width = 10
     Summary:
 	no macro.
 Unit <DRAM16XN_1> synthesized.
 
 Synthesizing Unit <decode_nok_2>.
-    Related source file is "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\decode_nok.v".
+    Related source file is "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\decode_nok.v".
         CHANNEL = "GREEN"
     Found 1-bit register for signal <toggle>.
     Found 5-bit register for signal <raw5bit_q>.
@@ -518,7 +518,7 @@ Synthesizing Unit <decode_nok_2>.
 Unit <decode_nok_2> synthesized.
 
 Synthesizing Unit <phsaligner_nok_2>.
-    Related source file is "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\phsaligner_nok.v".
+    Related source file is "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\phsaligner_nok.v".
         OPENEYE_CNT_WD = 3
         CTKNCNTWD = 4
         SRCHTIMERWD = 12
@@ -563,7 +563,7 @@ Synthesizing Unit <phsaligner_nok_2>.
 Unit <phsaligner_nok_2> synthesized.
 
 Synthesizing Unit <decode_nok_3>.
-    Related source file is "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\decode_nok.v".
+    Related source file is "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\decode_nok.v".
         CHANNEL = "RED"
     Found 1-bit register for signal <toggle>.
     Found 5-bit register for signal <raw5bit_q>.
@@ -588,7 +588,7 @@ Synthesizing Unit <decode_nok_3>.
 Unit <decode_nok_3> synthesized.
 
 Synthesizing Unit <phsaligner_nok_3>.
-    Related source file is "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\phsaligner_nok.v".
+    Related source file is "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\rx_nok\phsaligner_nok.v".
         OPENEYE_CNT_WD = 3
         CTKNCNTWD = 4
         SRCHTIMERWD = 12
@@ -633,13 +633,13 @@ Synthesizing Unit <phsaligner_nok_3>.
 Unit <phsaligner_nok_3> synthesized.
 
 Synthesizing Unit <rgb2ycbcr>.
-    Related source file is "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\rgb2ycbcr.v".
+    Related source file is "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\rgb2ycbcr.v".
     Summary:
 	no macro.
 Unit <rgb2ycbcr> synthesized.
 
 Synthesizing Unit <delay_line_1>.
-    Related source file is "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\delay_line.v".
+    Related source file is "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\delay_line.v".
         N = 9
         DELAY = 2
     Summary:
@@ -647,7 +647,7 @@ Synthesizing Unit <delay_line_1>.
 Unit <delay_line_1> synthesized.
 
 Synthesizing Unit <delay_1>.
-    Related source file is "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\delay.v".
+    Related source file is "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\delay.v".
         N = 9
     Found 9-bit register for signal <temp>.
     Summary:
@@ -655,7 +655,7 @@ Synthesizing Unit <delay_1>.
 Unit <delay_1> synthesized.
 
 Synthesizing Unit <delay_line_2>.
-    Related source file is "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\delay_line.v".
+    Related source file is "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\delay_line.v".
         N = 1
         DELAY = 6
     Summary:
@@ -663,7 +663,7 @@ Synthesizing Unit <delay_line_2>.
 Unit <delay_line_2> synthesized.
 
 Synthesizing Unit <delay_2>.
-    Related source file is "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\delay.v".
+    Related source file is "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\delay.v".
         N = 1
     Found 1-bit register for signal <temp>.
     Summary:
@@ -671,7 +671,7 @@ Synthesizing Unit <delay_2>.
 Unit <delay_2> synthesized.
 
 Synthesizing Unit <thresholding>.
-    Related source file is "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\thresholding.v".
+    Related source file is "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\thresholding.v".
 WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
     Found 8-bit comparator greater for signal <GND_36_o_cr[7]_LessThan_1_o> created at line 42
     Found 8-bit comparator greater for signal <cr[7]_PWR_32_o_LessThan_2_o> created at line 42
@@ -682,7 +682,7 @@ WARNING:Xst:647 - Input <clk> is never used. This port will be preserved and lef
 Unit <thresholding> synthesized.
 
 Synthesizing Unit <dvi_encoder_top>.
-    Related source file is "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\tx\dvi_encoder_top.v".
+    Related source file is "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\tx\dvi_encoder_top.v".
     Found 5-bit register for signal <tmdsclkint>.
     Found 1-bit register for signal <toggle>.
     Summary:
@@ -690,14 +690,14 @@ Synthesizing Unit <dvi_encoder_top>.
 Unit <dvi_encoder_top> synthesized.
 
 Synthesizing Unit <serdes_n_to_1>.
-    Related source file is "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\tx\serdes_n_to_1.v".
+    Related source file is "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\tx\serdes_n_to_1.v".
         SF = 5
     Summary:
 	no macro.
 Unit <serdes_n_to_1> synthesized.
 
 Synthesizing Unit <encode>.
-    Related source file is "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\tx\encode.v".
+    Related source file is "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\tx\encode.v".
         CTRLTOKEN0 = 10'b1101010100
         CTRLTOKEN1 = 10'b0010101011
         CTRLTOKEN2 = 10'b0101010100
@@ -752,7 +752,7 @@ Synthesizing Unit <encode>.
 Unit <encode> synthesized.
 
 Synthesizing Unit <convert_30to15_fifo>.
-    Related source file is "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\tx\convert_30to15_fifo.v".
+    Related source file is "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\tx\convert_30to15_fifo.v".
         ADDR0 = 4'b0000
         ADDR1 = 4'b0001
         ADDR2 = 4'b0010
@@ -770,7 +770,7 @@ Synthesizing Unit <convert_30to15_fifo>.
         ADDR14 = 4'b1110
         ADDR15 = 4'b1111
     Set property "ASYNC_REG = TRUE" for instance <fdp_rst>.
-INFO:Xst:3210 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\tx\convert_30to15_fifo.v" line 64: Output port <O_DATA_OUT> of the instance <fifo_u> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\tx\convert_30to15_fifo.v" line 64: Output port <O_DATA_OUT> of the instance <fifo_u> is unconnected or connected to loadless signal.
     Found 16x4-bit Read Only RAM for signal <wa_d>
     Found 16x4-bit Read Only RAM for signal <ra_d>
     Summary:
@@ -779,7 +779,7 @@ INFO:Xst:3210 - "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\sr
 Unit <convert_30to15_fifo> synthesized.
 
 Synthesizing Unit <DRAM16XN_2>.
-    Related source file is "D:\JiTPS\AdamMichna\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\common\DRAM16XN.v".
+    Related source file is "\\VBOXSVR\studia\Semestr6\JiTPS\labrepo\lab12_binaryzacja\lab12_binaryzacja\hdmi\src\common\DRAM16XN.v".
         data_width = 30
     Summary:
 	no macro.
@@ -1543,12 +1543,12 @@ dvi_rx1/PLL_ISERDES/CLKOUT2|    5.509|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 12.00 secs
-Total CPU time to Xst completion: 12.15 secs
+Total REAL time to Xst completion: 28.00 secs
+Total CPU time to Xst completion: 28.34 secs
  
 --> 
 
-Total memory usage is 267052 kilobytes
+Total memory usage is 271176 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :  131 (   0 filtered)

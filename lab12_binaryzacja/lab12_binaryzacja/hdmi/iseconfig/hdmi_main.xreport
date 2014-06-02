@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2014-05-26T18:37:47</DateModified>
+  <DateModified>2014-06-02T11:31:07</DateModified>
   <ModuleName>hdmi_main</ModuleName>
-  <SummaryTimeStamp>2014-04-14T19:43:32</SummaryTimeStamp>
-  <SavedFilePath>D:/JiTPS/AdamMichna/lab12_binaryzacja/lab12_binaryzacja/hdmi/iseconfig/hdmi_main.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>D:/JiTPS/AdamMichna/lab12_binaryzacja/lab12_binaryzacja/hdmi\</ImplementationReportsDirectory>
+  <SummaryTimeStamp>2014-06-02T11:30:24</SummaryTimeStamp>
+  <SavedFilePath>//VBOXSVR/studia/Semestr6/JiTPS/labrepo/lab12_binaryzacja/lab12_binaryzacja/hdmi/iseconfig/hdmi_main.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>//VBOXSVR/studia/Semestr6/JiTPS/labrepo/lab12_binaryzacja/lab12_binaryzacja/hdmi\</ImplementationReportsDirectory>
   <DateInitialized>2014-03-29T19:35:33</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

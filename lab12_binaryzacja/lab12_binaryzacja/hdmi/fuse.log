@@ -1,47 +1,14 @@
-Running: C:\Xilinx\14.6\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o D:/JiTPS/AdamMichna/lab12_binaryzacja/lab12_binaryzacja/hdmi/tb_bin_isim_beh.exe -prj D:/JiTPS/AdamMichna/lab12_binaryzacja/lab12_binaryzacja/hdmi/tb_bin_beh.prj work.tb_bin work.glbl 
-ISim P.68d (signature 0x7708f090)
+Running: F:\Xilinx_Design_Tools\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o //VBOXSVR/studia/Semestr6/JiTPS/labrepo/lab12_binaryzacja/lab12_binaryzacja/hdmi/tb_sumator_isim_beh.exe -prj //VBOXSVR/studia/Semestr6/JiTPS/labrepo/lab12_binaryzacja/lab12_binaryzacja/hdmi/tb_sumator_beh.prj work.tb_sumator work.glbl 
+ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 8
 Turning on mult-threading, number of parallel sub-compilation jobs: 16 
 Determining compilation order of HDL files
-Analyzing Verilog file "D:/JiTPS/AdamMichna/lab12_binaryzacja/lab12_binaryzacja/hdmi/ipcore_dir/mull.v" into library work
-Analyzing Verilog file "D:/JiTPS/AdamMichna/lab12_binaryzacja/lab12_binaryzacja/hdmi/ipcore_dir/sum.v" into library work
-WARNING:HDLCompiler:687 - "D:/JiTPS/AdamMichna/lab12_binaryzacja/lab12_binaryzacja/hdmi/ipcore_dir/sum.v" Line 531: Illegal redeclaration of module <glbl>.
-Analyzing Verilog file "D:/JiTPS/AdamMichna/lab12_binaryzacja/lab12_binaryzacja/hdmi/delay.v" into library work
-Analyzing Verilog file "D:/JiTPS/AdamMichna/lab12_binaryzacja/lab12_binaryzacja/hdmi/delay_line.v" into library work
-WARNING:HDLCompiler:248 - "D:/JiTPS/AdamMichna/lab12_binaryzacja/lab12_binaryzacja/hdmi/delay_line.v" Line 42: Block identifier is required on this block
-Analyzing Verilog file "D:/JiTPS/AdamMichna/lab12_binaryzacja/lab12_binaryzacja/hdmi/thresholding.v" into library work
-Analyzing Verilog file "D:/JiTPS/AdamMichna/lab12_binaryzacja/lab12_binaryzacja/hdmi/tb_src/hdmi_out.v" into library work
-Analyzing Verilog file "D:/JiTPS/AdamMichna/lab12_binaryzacja/lab12_binaryzacja/hdmi/tb_src/hdmi_in.v" into library work
-Analyzing Verilog file "D:/JiTPS/AdamMichna/lab12_binaryzacja/lab12_binaryzacja/hdmi/rgb2ycbcr.v" into library work
-Analyzing Verilog file "D:/JiTPS/AdamMichna/lab12_binaryzacja/lab12_binaryzacja/hdmi/tb_bin.v" into library work
-Analyzing Verilog file "C:/Xilinx/14.6/ISE_DS/ISE//verilog/src/glbl.v" into library work
-WARNING:HDLCompiler:687 - "C:/Xilinx/14.6/ISE_DS/ISE//verilog/src/glbl.v" Line 5: Illegal redeclaration of module <glbl>.
-Starting static elaboration
-Completed static elaboration
-Compiling module hdmi_in
-Compiling module DSP48A1(B0REG=1,B1REG=0,CARRYINR...
-Compiling module GND
-Compiling module VCC
-Compiling module mull
-Compiling module FDE
-Compiling module SRLC16E
-Compiling module LUT1(INIT=2'b10)
-Compiling module LUT2(INIT=4'b0110)
-Compiling module MUXCY
-Compiling module XORCY
-Compiling module sum
-Compiling module delay(N=9)
-Compiling module delay_line(N=9,DELAY=2)
-Compiling module delay(N=1)
-Compiling module delay_line(N=1,DELAY=6)
-Compiling module rgb2ycbcr
-Compiling module thresholding
-Compiling module hdmi_out
-Compiling module tb_bin
-Compiling module glbl
-Time Resolution for simulation is 1ps.
-Waiting for 6 sub-compilation(s) to finish...
-Compiled 21 Verilog Units
-Built simulation executable D:/JiTPS/AdamMichna/lab12_binaryzacja/lab12_binaryzacja/hdmi/tb_bin_isim_beh.exe
-Fuse Memory Usage: 40904 KB
-Fuse CPU Usage: 514 ms
+Analyzing Verilog file "//VBOXSVR/studia/Semestr6/JiTPS/labrepo/lab12_binaryzacja/lab12_binaryzacja/hdmi/ipcore_dir/suma.v" into library work
+Analyzing Verilog file "//VBOXSVR/studia/Semestr6/JiTPS/labrepo/lab12_binaryzacja/lab12_binaryzacja/hdmi/sumator.v" into library work
+Analyzing Verilog file "//VBOXSVR/studia/Semestr6/JiTPS/labrepo/lab12_binaryzacja/lab12_binaryzacja/hdmi/tb_sumator.v" into library work
+Analyzing Verilog file "F:/Xilinx_Design_Tools/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+WARNING:HDLCompiler:687 - "F:/Xilinx_Design_Tools/14.7/ISE_DS/ISE//verilog/src/glbl.v" Line 5: Illegal redeclaration of module <glbl>.
+ERROR:HDLCompiler:1091 - "Unknown" Line 0: Save failed due to mkdir failure
+ERROR:HDLCompiler:1091 - "Unknown" Line 0: Save failed due to mkdir failure
+ERROR:HDLCompiler:1091 - "Unknown" Line 0: Save failed due to mkdir failure
+ERROR:HDLCompiler:1091 - "Unknown" Line 0: Save failed due to mkdir failure
